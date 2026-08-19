@@ -435,6 +435,17 @@ query	match_type	depth	rank	name	taxon_id
 55564	organism	10	family	Characeae	17539
 55564	organism	11	genus	Chara	17544
 55564	organism	12	species	Chara vulgaris	17703
+3034	organism	0	life	Life	1
+3034	organism	1	undefined	Eukaryota	2
+3034	organism	2	undefined	Diaphoretickes	836
+3034	organism	3	undefined	Pancryptista	23324
+3034	organism	4	undefined	Cryptista	23326
+3034	organism	5	undefined	'CK clade'	23327
+3034	organism	6	undefined	Cryptophyceae	23328
+3034	organism	7	order	Cryptomonadales	23391
+3034	organism	8	family	Pyrenomonadaceae	23641
+3034	organism	9	genus	Rhodomonas	23652
+3034	organism	10	species	Rhodomonas salina	23671
 299206	organism	0	life	Life	1
 299206	organism	1	undefined	Eukaryota	2
 299206	organism	2	undefined	Diaphoretickes	836
@@ -575,7 +586,6 @@ query	match_type	depth	rank	name	taxon_id
 361072	UNMATCHED			organism not present in EukMap (no direct species/name match)	
 13642	UNMATCHED			organism not present in EukMap (no direct species/name match)	
 56867	UNMATCHED			organism not present in EukMap (no direct species/name match)	
-52970	UNMATCHED			unknown NCBI taxid	
 1008807	UNMATCHED			organism not present in EukMap (no direct species/name match)	
 1239300	UNMATCHED			organism not present in EukMap (no direct species/name match)	
 221724	UNMATCHED			organism not present in EukMap (no direct species/name match)	

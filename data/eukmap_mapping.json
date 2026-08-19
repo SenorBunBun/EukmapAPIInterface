@@ -3302,6 +3302,87 @@
       ]
     },
     {
+      "query": "3034",
+      "ncbi": {
+        "taxid": "3034",
+        "name": "Rhodomonas salina",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Rhodomonas salina",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "cryptophyceae",
+          "pyrenomonadaceae",
+          "rhodomonas"
+        ]
+      },
+      "matched": {
+        "id": "23671",
+        "name": "Rhodomonas salina",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "23324",
+          "name": "Pancryptista",
+          "rank": "undefined"
+        },
+        {
+          "id": "23326",
+          "name": "Cryptista",
+          "rank": "undefined"
+        },
+        {
+          "id": "23327",
+          "name": "'CK clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "23328",
+          "name": "Cryptophyceae",
+          "rank": "undefined"
+        },
+        {
+          "id": "23391",
+          "name": "Cryptomonadales",
+          "rank": "order"
+        },
+        {
+          "id": "23641",
+          "name": "Pyrenomonadaceae",
+          "rank": "family"
+        },
+        {
+          "id": "23652",
+          "name": "Rhodomonas",
+          "rank": "genus"
+        },
+        {
+          "id": "23671",
+          "name": "Rhodomonas salina",
+          "rank": "species"
+        }
+      ]
+    },
+    {
       "query": "299206",
       "ncbi": {
         "taxid": "299206",
@@ -4242,10 +4323,6 @@
       "reason": "organism not present in EukMap (no direct species/name match)"
     },
     {
-      "query": "52970",
-      "reason": "unknown NCBI taxid"
-    },
-    {
       "query": "1008807",
       "ncbi_name": "Acrasis kona",
       "reason": "organism not present in EukMap (no direct species/name match)"
@@ -4884,6 +4961,26 @@
                                             {
                                               "id": "23454",
                                               "name": "Cryptomonas curvata",
+                                              "rank": "species",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "23641",
+                                      "name": "Pyrenomonadaceae",
+                                      "rank": "family",
+                                      "children": [
+                                        {
+                                          "id": "23652",
+                                          "name": "Rhodomonas",
+                                          "rank": "genus",
+                                          "children": [
+                                            {
+                                              "id": "23671",
+                                              "name": "Rhodomonas salina",
                                               "rank": "species",
                                               "children": []
                                             }
