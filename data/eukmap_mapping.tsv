@@ -1,0 +1,592 @@
+query	match_type	depth	rank	name	taxon_id
+2044563	organism	0	life	Life	1
+2044563	organism	1	undefined	Eukaryota	2
+2044563	organism	2	undefined	Diaphoretickes	836
+2044563	organism	3	undefined	Provora	23735
+2044563	organism	4	undefined	Nebulidia	23737
+2044563	organism	5	genus	Ancoracysta	23739
+2044563	organism	6	species	Ancoracysta twista	23740
+2762	organism	0	life	Life	1
+2762	organism	1	undefined	Eukaryota	2
+2762	organism	2	undefined	Diaphoretickes	836
+2762	organism	3	undefined	Archaeplastida	864
+2762	organism	4	undefined	Glaucophyta	22490
+2762	organism	5	family	Cyanophoraceae	22493
+2762	organism	6	genus	Cyanophora	22494
+2762	organism	7	species	Cyanophora paradoxa	22502
+38271	organism	0	life	Life	1
+38271	organism	1	undefined	Eukaryota	2
+38271	organism	2	undefined	Diaphoretickes	836
+38271	organism	3	undefined	Archaeplastida	864
+38271	organism	4	undefined	Glaucophyta	22490
+38271	organism	5	family	Glaucocystaceae	22521
+38271	organism	6	genus	Glaucocystis	22522
+38271	organism	7	species	Glaucocystis nostochinearum	22546
+2584957	organism	0	life	Life	1
+2584957	organism	1	undefined	Eukaryota	2
+2584957	organism	2	undefined	Diaphoretickes	836
+2584957	organism	3	undefined	Archaeplastida	864
+2584957	organism	4	undefined	'PRR clade'	865
+2584957	organism	5	phylum	Rhodelphidia	901
+2584957	organism	6	genus	Rhodelphis	903
+2584957	organism	7	species	Rhodelphis marinus	906
+35688	organism	0	life	Life	1
+35688	organism	1	undefined	Eukaryota	2
+35688	organism	2	undefined	Diaphoretickes	836
+35688	organism	3	undefined	Archaeplastida	864
+35688	organism	4	undefined	'PRR clade'	865
+35688	organism	5	undefined	Rhodophyta	910
+35688	organism	6	undefined	Proteorhodophytina	9129
+35688	organism	7	class	Porphyridiophyceae	9226
+35688	organism	8	order	Porphyridiales	9227
+35688	organism	9	genus	Porphyridium	9233
+35688	organism	10	species	Porphyridium purpureum	9235
+45157	organism	0	life	Life	1
+45157	organism	1	undefined	Eukaryota	2
+45157	organism	2	undefined	Diaphoretickes	836
+45157	organism	3	undefined	Archaeplastida	864
+45157	organism	4	undefined	'PRR clade'	865
+45157	organism	5	undefined	Rhodophyta	910
+45157	organism	6	undefined	Cyanidiophytina	919
+45157	organism	7	class	Cyanidiophyceae	920
+45157	organism	8	order	Cyanidioschyzonales	930
+45157	organism	9	genus	Cyanidioschyzon	933
+45157	organism	10	species	Cyanidioschyzon merolae	934
+130081	organism	0	life	Life	1
+130081	organism	1	undefined	Eukaryota	2
+130081	organism	2	undefined	Diaphoretickes	836
+130081	organism	3	undefined	Archaeplastida	864
+130081	organism	4	undefined	'PRR clade'	865
+130081	organism	5	undefined	Rhodophyta	910
+130081	organism	6	undefined	Cyanidiophytina	919
+130081	organism	7	class	Cyanidiophyceae	920
+130081	organism	8	order	Galdieriales	935
+130081	organism	9	genus	Galdieria	936
+130081	organism	10	species	Galdieria sulphuraria	939
+3055	organism	0	life	Life	1
+3055	organism	1	undefined	Eukaryota	2
+3055	organism	2	undefined	Diaphoretickes	836
+3055	organism	3	undefined	Archaeplastida	864
+3055	organism	4	undefined	Chloroplastida	9339
+3055	organism	5	undefined	Chlorophyta	9340
+3055	organism	6	undefined	'core chlorophytes'	9341
+3055	organism	7	class	Chlorophyceae	9394
+3055	organism	8	order	Chlamydomonadales	9713
+3055	organism	9	family	Chlamydomonadaceae	9787
+3055	organism	10	genus	Chlamydomonas	9894
+3055	organism	11	species	Chlamydomonas reinhardtii	10327
+41880	organism	0	life	Life	1
+41880	organism	1	undefined	Eukaryota	2
+41880	organism	2	undefined	Diaphoretickes	836
+41880	organism	3	undefined	Archaeplastida	864
+41880	organism	4	undefined	Chloroplastida	9339
+41880	organism	5	undefined	Chlorophyta	9340
+41880	organism	6	order	Pseudoscourfieldiales	17257
+41880	organism	7	family	Pycnococcaceae	17258
+41880	organism	8	genus	Pycnococcus	17261
+41880	organism	9	species	Pycnococcus provasolii	17263
+554065	organism	0	life	Life	1
+554065	organism	1	undefined	Eukaryota	2
+554065	organism	2	undefined	Diaphoretickes	836
+554065	organism	3	undefined	Archaeplastida	864
+554065	organism	4	undefined	Chloroplastida	9339
+554065	organism	5	undefined	Chlorophyta	9340
+554065	organism	6	undefined	'core chlorophytes'	9341
+554065	organism	7	class	Trebouxiophyceae	13982
+554065	organism	8	order	Chlorellales	13986
+554065	organism	9	family	Chlorellaceae	13989
+554065	organism	10	genus	Chlorella	14029
+554065	organism	11	species	Chlorella variabilis	14056
+69332	organism	0	life	Life	1
+69332	organism	1	undefined	Eukaryota	2
+69332	organism	2	undefined	Diaphoretickes	836
+69332	organism	3	undefined	Archaeplastida	864
+69332	organism	4	undefined	Chloroplastida	9339
+69332	organism	5	undefined	Streptophyta	17433
+69332	organism	6	undefined	'core streptophytes'	17470
+69332	organism	7	undefined	Phragmoplastophyta	17536
+69332	organism	8	class	Charophyceae	17537
+69332	organism	9	order	Charales	17538
+69332	organism	10	family	Characeae	17539
+69332	organism	11	genus	Chara	17544
+69332	organism	12	species	Chara braunii	17562
+41882	organism	0	life	Life	1
+41882	organism	1	undefined	Eukaryota	2
+41882	organism	2	undefined	Diaphoretickes	836
+41882	organism	3	undefined	Archaeplastida	864
+41882	organism	4	undefined	Chloroplastida	9339
+41882	organism	5	undefined	Streptophyta	17433
+41882	organism	6	undefined	'CM clade'	17434
+41882	organism	7	class	Mesostigmatophyceae	17442
+41882	organism	8	genus	Mesostigma	17443
+41882	organism	9	species	Mesostigma viride	17444
+190327	organism	0	life	Life	1
+190327	organism	1	undefined	Eukaryota	2
+190327	organism	2	undefined	'CRuMs'	4
+190327	organism	3	undefined	'CR clade'	5
+190327	organism	4	family	Collodictyonidae	6
+190327	organism	5	genus	Diphylleia	22
+190327	organism	6	species	Diphylleia rotans	23
+1122280	organism	0	life	Life	1
+1122280	organism	1	undefined	Eukaryota	2
+1122280	organism	2	undefined	'CRuMs'	4
+1122280	organism	3	undefined	'CR clade'	5
+1122280	organism	4	order	Rigifilida	28
+1122280	organism	5	genus	Rigifila	32
+1122280	organism	6	species	Rigifila ramosa	33
+233186	organism	0	life	Life	1
+233186	organism	1	undefined	Eukaryota	2
+233186	organism	2	undefined	Diaphoretickes	836
+233186	organism	3	undefined	Pancryptista	23324
+233186	organism	4	undefined	Cryptista	23326
+233186	organism	5	undefined	'CK clade'	23327
+233186	organism	6	undefined	Cryptophyceae	23328
+233186	organism	7	order	Cryptomonadales	23391
+233186	organism	8	family	Cryptomonadaceae	23413
+233186	organism	9	genus	Cryptomonas	23438
+233186	organism	10	species	Cryptomonas curvata	23454
+1255295	organism	0	life	Life	1
+1255295	organism	1	undefined	Eukaryota	2
+1255295	organism	2	undefined	Diaphoretickes	836
+1255295	organism	3	undefined	Pancryptista	23324
+1255295	organism	4	undefined	Cryptista	23326
+1255295	organism	5	undefined	'CK clade'	23327
+1255295	organism	6	undefined	Cryptophyceae	23328
+1255295	organism	7	undefined	'goniomonads'	23341
+1255295	organism	8	genus	'Gavonlea lineage'	23363
+1255295	organism	9	species	Goniomonas avonlea	23364
+652834	organism	0	life	Life	1
+652834	organism	1	undefined	Eukaryota	2
+652834	organism	2	undefined	Diaphoretickes	836
+652834	organism	3	undefined	Pancryptista	23324
+652834	organism	4	undefined	Cryptista	23326
+652834	organism	5	genus	Palpitomonas	23728
+652834	organism	6	species	Palpitomonas bilix	23729
+3039	organism	0	life	Life	1
+3039	organism	1	undefined	Eukaryota	2
+3039	organism	2	undefined	Discoba	53740
+3039	organism	3	undefined	Euglenozoa	53742
+3039	organism	4	undefined	Euglenida	53758
+3039	organism	5	undefined	'core euglenids'	53759
+3039	organism	6	undefined	Olkaspira	53772
+3039	organism	7	undefined	Spirocuta	53775
+3039	organism	8	undefined	Euglenea	53805
+3039	organism	9	undefined	Euglenophycidae	53808
+3039	organism	10	order	Euglenales	53809
+3039	organism	11	family	Euglenaceae	53810
+3039	organism	12	genus	Euglena	53853
+3039	organism	13	species	Euglena gracilis	53912
+3037	organism	0	life	Life	1
+3037	organism	1	undefined	Eukaryota	2
+3037	organism	2	undefined	Discoba	53740
+3037	organism	3	undefined	Euglenozoa	53742
+3037	organism	4	undefined	Euglenida	53758
+3037	organism	5	undefined	'core euglenids'	53759
+3037	organism	6	undefined	Olkaspira	53772
+3037	organism	7	undefined	Spirocuta	53775
+3037	organism	8	undefined	Euglenea	53805
+3037	organism	9	undefined	Euglenophycidae	53808
+3037	organism	10	order	Euglenales	53809
+3037	organism	11	family	Euglenaceae	53810
+3037	organism	12	genus	Euglena	53853
+3037	organism	13	species	Euglena longa	53935
+505711	organism	0	life	Life	1
+505711	organism	1	undefined	Eukaryota	2
+505711	organism	2	undefined	Discoba	53740
+505711	organism	3	order	Jakobida	55060
+505711	organism	4	suborder	Andalucina	55061
+505711	organism	5	family	Andaluciidae	55062
+505711	organism	6	genus	Andalucia	55064
+505711	organism	7	species	Andalucia godoyi	55067
+48483	organism	0	life	Life	1
+48483	organism	1	undefined	Eukaryota	2
+48483	organism	2	undefined	Discoba	53740
+48483	organism	3	order	Jakobida	55060
+48483	organism	4	suborder	Histionina	55102
+48483	organism	5	family	Histionidae	55106
+48483	organism	6	genus	Reclinomonas	55111
+48483	organism	7	species	Reclinomonas americana	55112
+875863	organism	0	life	Life	1
+875863	organism	1	undefined	Eukaryota	2
+875863	organism	2	undefined	Discoba	53740
+875863	organism	3	genus	Tsukubamonas	55149
+875863	organism	4	species	Tsukubamonas globosa	55150
+1460289	organism	0	life	Life	1
+1460289	organism	1	undefined	Eukaryota	2
+1460289	organism	2	undefined	Diaphoretickes	836
+1460289	organism	3	undefined	Haptista	22563
+1460289	organism	4	undefined	Haptophyta	22597
+1460289	organism	5	class	Prymnesiophyceae	22705
+1460289	organism	6	order	Prymnesiales	23198
+1460289	organism	7	family	Chrysochromulinaceae	23204
+1460289	organism	8	genus	Chrysochromulina	23205
+1460289	organism	9	species	Chrysochromulina tobinii	23248
+2027451	organism	0	life	Life	1
+2027451	organism	1	undefined	Eukaryota	2
+2027451	organism	2	undefined	Diaphoretickes	836
+2027451	organism	3	undefined	'HM clade'	837
+2027451	organism	4	phylum	Hemimastigophora	845
+2027451	organism	5	family	Spironemidae	850
+2027451	organism	6	genus	Hemimastix	851
+2027451	organism	7	species	Hemimastix kukwesjijk	853
+2853422	organism	0	life	Life	1
+2853422	organism	1	undefined	Eukaryota	2
+2853422	organism	2	order	Malawimonadida	55152
+2853422	organism	3	family	Malawimonadidae	55158
+2853422	organism	4	genus	Gefionella	55159
+2853422	organism	5	species	Gefionella okellyi	55160
+136089	organism	0	life	Life	1
+136089	organism	1	undefined	Eukaryota	2
+136089	organism	2	order	Malawimonadida	55152
+136089	organism	3	family	Malawimonadidae	55158
+136089	organism	4	genus	Malawimonas	55162
+136089	organism	5	species	Malawimonas jakobiformis	55165
+281847	organism	0	life	Life	1
+281847	organism	1	undefined	Eukaryota	2
+281847	organism	2	undefined	Amorphea	47
+281847	organism	3	undefined	Obazoa	365
+281847	organism	4	undefined	Opisthokonta	395
+281847	organism	5	undefined	Nucletmycea	660
+281847	organism	6	undefined	Fungi	661
+281847	organism	7	undefined	'cryptomycota'	736
+281847	organism	8	order	Rozellida	745
+281847	organism	9	genus	Rozella	761
+281847	organism	10	undefined	'Rallo group'	768
+281847	organism	11	species	Rozella allomycis	771
+691883	organism	0	life	Life	1
+691883	organism	1	undefined	Eukaryota	2
+691883	organism	2	undefined	Amorphea	47
+691883	organism	3	undefined	Obazoa	365
+691883	organism	4	undefined	Opisthokonta	395
+691883	organism	5	undefined	Nucletmycea	660
+691883	organism	6	order	Rotosphaerida	788
+691883	organism	7	genus	Fonticula	820
+691883	organism	8	species	Fonticula alba	821
+192875	organism	0	life	Life	1
+192875	organism	1	undefined	Eukaryota	2
+192875	organism	2	undefined	Amorphea	47
+192875	organism	3	undefined	Obazoa	365
+192875	organism	4	undefined	Opisthokonta	395
+192875	organism	5	undefined	Holozoa	396
+192875	organism	6	class	Filasterea	553
+192875	organism	7	undefined	'capsasporids'	554
+192875	organism	8	genus	Capsaspora	556
+192875	organism	9	species	Capsaspora owczarzaki	557
+470921	organism	0	life	Life	1
+470921	organism	1	undefined	Eukaryota	2
+470921	organism	2	undefined	Amorphea	47
+470921	organism	3	undefined	Obazoa	365
+470921	organism	4	undefined	Opisthokonta	395
+470921	organism	5	undefined	Holozoa	396
+470921	organism	6	class	Ichthyosporea	577
+470921	organism	7	order	Ichthyophonida	596
+470921	organism	8	undefined	'CSA clade'	637
+470921	organism	9	undefined	'sphaeroformids'	644
+470921	organism	10	undefined	'CS group'	645
+470921	organism	11	genus	Creolimax	646
+470921	organism	12	species	Creolimax fragrantissima	647
+72019	organism	0	life	Life	1
+72019	organism	1	undefined	Eukaryota	2
+72019	organism	2	undefined	Amorphea	47
+72019	organism	3	undefined	Obazoa	365
+72019	organism	4	undefined	Opisthokonta	395
+72019	organism	5	undefined	Holozoa	396
+72019	organism	6	class	Ichthyosporea	577
+72019	organism	7	order	Ichthyophonida	596
+72019	organism	8	undefined	'CSA clade'	637
+72019	organism	9	undefined	'sphaeroformids'	644
+72019	organism	10	undefined	'CS group'	645
+72019	organism	11	genus	Sphaeroforma	648
+72019	organism	12	species	Sphaeroforma arctica	649
+505693	organism	0	life	Life	1
+505693	organism	1	undefined	Eukaryota	2
+505693	organism	2	undefined	Diaphoretickes	836
+505693	organism	3	undefined	Sar	23763
+505693	organism	4	undefined	Alveolata	23764
+505693	organism	5	undefined	Myzozoa	25692
+505693	organism	6	undefined	'AC clade'	25693
+505693	organism	7	order	Colpodellida	25835
+505693	organism	8	family	Chromeraceae	25843
+505693	organism	9	genus	Chromera	25846
+505693	organism	10	species	Chromera velia	25847
+1169539	organism	0	life	Life	1
+1169539	organism	1	undefined	Eukaryota	2
+1169539	organism	2	undefined	Diaphoretickes	836
+1169539	organism	3	undefined	Sar	23763
+1169539	organism	4	undefined	Alveolata	23764
+1169539	organism	5	undefined	Myzozoa	25692
+1169539	organism	6	undefined	'AC clade'	25693
+1169539	organism	7	order	Colpodellida	25835
+1169539	organism	8	family	Vitrellaceae	25876
+1169539	organism	9	genus	Vitrella	25880
+1169539	organism	10	species	Vitrella brassicaformis	25881
+878477	organism	0	life	Life	1
+878477	organism	1	undefined	Eukaryota	2
+878477	organism	2	undefined	Diaphoretickes	836
+878477	organism	3	undefined	Sar	23763
+878477	organism	4	undefined	Alveolata	23764
+878477	organism	5	undefined	Myzozoa	25692
+878477	organism	6	undefined	'DP clade'	25900
+878477	organism	7	undefined	Dinoflagellata	25901
+878477	organism	8	undefined	'core dinos'	25902
+878477	organism	9	undefined	Dinophyceae	25905
+878477	organism	10	undefined	'thecates'	26344
+878477	organism	11	order	Suessiales	28573
+878477	organism	12	family	Suessiaceae	28599
+878477	organism	13	undefined	'symbiodiniids'	28610
+878477	organism	14	genus	Symbiodinium	28659
+878477	organism	15	species	Symbiodinium natans	28662
+227086	organism	0	life	Life	1
+227086	organism	1	undefined	Eukaryota	2
+227086	organism	2	undefined	Diaphoretickes	836
+227086	organism	3	undefined	Sar	23763
+227086	organism	4	undefined	Rhizaria	29475
+227086	organism	5	undefined	Cercozoa	29493
+227086	organism	6	class	Chlorarachnea	29705
+227086	organism	7	undefined	'core chlorarachneans'	29706
+227086	organism	8	undefined	Chlorarachniophyceae	29707
+227086	organism	9	genus	Bigelowiella	29725
+227086	organism	10	species	Bigelowiella natans	29733
+35128	organism	0	life	Life	1
+35128	organism	1	undefined	Eukaryota	2
+35128	organism	2	undefined	Diaphoretickes	836
+35128	organism	3	undefined	Sar	23763
+35128	organism	4	undefined	Stramenopiles	30095
+35128	organism	5	undefined	'GOS clade'	30096
+35128	organism	6	undefined	Gyrista	30097
+35128	organism	7	undefined	Ochrophyta	30138
+35128	organism	8	undefined	'BD clade'	30139
+35128	organism	9	undefined	Diatomeae	30171
+35128	organism	10	undefined	Bacillariophytina	30179
+35128	organism	11	class	Mediophyceae	45104
+35128	organism	12	subclass	Thalassiosirophycidae	46034
+35128	organism	13	order	Thalassiosirales	46329
+35128	organism	14	family	Thalassiosiraceae	46354
+35128	organism	15	genus	Thalassiosira	46452
+35128	organism	16	species	Thalassiosira pseudonana	46557
+44439	organism	0	life	Life	1
+44439	organism	1	undefined	Eukaryota	2
+44439	organism	2	undefined	Diaphoretickes	836
+44439	organism	3	undefined	Sar	23763
+44439	organism	4	undefined	Stramenopiles	30095
+44439	organism	5	undefined	'GOS clade'	30096
+44439	organism	6	undefined	Gyrista	30097
+44439	organism	7	undefined	Ochrophyta	30138
+44439	organism	8	class	Raphidophyceae	53318
+44439	organism	9	order	Chattonellales	53321
+44439	organism	10	family	Chattonellaceae	53322
+44439	organism	11	genus	Chattonella	53323
+2786	organism	0	life	Life	1
+2786	organism	1	undefined	Eukaryota	2
+2786	organism	2	undefined	Diaphoretickes	836
+2786	organism	3	undefined	Archaeplastida	864
+2786	organism	4	undefined	'PRR clade'	865
+2786	organism	5	undefined	Rhodophyta	910
+2786	organism	6	undefined	Eurhodophytina	944
+2786	organism	7	class	Bangiophyceae	945
+2786	organism	8	order	Bangiales	946
+2786	organism	9	family	Bangiaceae	947
+2786	organism	10	genus	Porphyra	1001
+2786	organism	11	species	Porphyra umbilicalis	1050
+31312	organism	0	life	Life	1
+31312	organism	1	undefined	Eukaryota	2
+31312	organism	2	undefined	Diaphoretickes	836
+31312	organism	3	undefined	Archaeplastida	864
+31312	organism	4	undefined	Chloroplastida	9339
+31312	organism	5	undefined	Chlorophyta	9340
+31312	organism	6	class	Nephroselmidophyceae	17216
+31312	organism	7	order	Nephroselmidales	17217
+31312	organism	8	genus	Nephroselmis	17232
+31312	organism	9	species	Nephroselmis olivacea	17241
+3111	organism	0	life	Life	1
+3111	organism	1	undefined	Eukaryota	2
+3111	organism	2	undefined	Diaphoretickes	836
+3111	organism	3	undefined	Archaeplastida	864
+3111	organism	4	undefined	Chloroplastida	9339
+3111	organism	5	undefined	Chlorophyta	9340
+3111	organism	6	undefined	'core chlorophytes'	9341
+3111	organism	7	class	Trebouxiophyceae	13982
+3111	organism	8	order	Chlorellales	13986
+3111	organism	9	family	Chlorellaceae	13989
+3111	organism	10	genus	Prototheca	14242
+3111	organism	11	species	Prototheca wickerhamii	14263
+3112	organism	0	life	Life	1
+3112	organism	1	undefined	Eukaryota	2
+3112	organism	2	undefined	Diaphoretickes	836
+3112	organism	3	undefined	Archaeplastida	864
+3112	organism	4	undefined	Chloroplastida	9339
+3112	organism	5	undefined	Chlorophyta	9340
+3112	organism	6	undefined	'core chlorophytes'	9341
+3112	organism	7	class	Trebouxiophyceae	13982
+3112	organism	8	order	Chlorellales	13986
+3112	organism	9	family	Chlorellaceae	13989
+3112	organism	10	genus	Prototheca	14242
+3112	organism	11	species	Prototheca zopfii	14265
+55564	organism	0	life	Life	1
+55564	organism	1	undefined	Eukaryota	2
+55564	organism	2	undefined	Diaphoretickes	836
+55564	organism	3	undefined	Archaeplastida	864
+55564	organism	4	undefined	Chloroplastida	9339
+55564	organism	5	undefined	Streptophyta	17433
+55564	organism	6	undefined	'core streptophytes'	17470
+55564	organism	7	undefined	Phragmoplastophyta	17536
+55564	organism	8	class	Charophyceae	17537
+55564	organism	9	order	Charales	17538
+55564	organism	10	family	Characeae	17539
+55564	organism	11	genus	Chara	17544
+55564	organism	12	species	Chara vulgaris	17703
+299206	organism	0	life	Life	1
+299206	organism	1	undefined	Eukaryota	2
+299206	organism	2	undefined	Diaphoretickes	836
+299206	organism	3	undefined	Pancryptista	23324
+299206	organism	4	undefined	Cryptista	23326
+299206	organism	5	undefined	'CK clade'	23327
+299206	organism	6	undefined	Kathablepharidacea	23697
+299206	organism	7	undefined	'core kathablepharids'	23698
+299206	organism	8	genus	Leucocryptos	23718
+299206	organism	9	species	Leucocryptos marina	23719
+392300	organism	0	life	Life	1
+392300	organism	1	undefined	Eukaryota	2
+392300	organism	2	undefined	Discoba	53740
+392300	organism	3	order	Jakobida	55060
+392300	organism	4	suborder	Histionina	55102
+392300	organism	5	family	Histionidae	55106
+392300	organism	6	genus	Histiona	55107
+392300	organism	7	species	Histiona aroides	55108
+143017	organism	0	life	Life	1
+143017	organism	1	undefined	Eukaryota	2
+143017	organism	2	undefined	Discoba	53740
+143017	organism	3	order	Jakobida	55060
+143017	organism	4	suborder	Histionina	55102
+143017	organism	5	genus	Jakoba	55125
+143017	organism	6	species	Jakoba libera	55128
+127563	organism	0	life	Life	1
+127563	organism	1	undefined	Eukaryota	2
+127563	organism	2	undefined	Diaphoretickes	836
+127563	organism	3	undefined	Haptista	22563
+127563	organism	4	undefined	Haptophyta	22597
+127563	organism	5	class	Prymnesiophyceae	22705
+127563	organism	6	order	Prymnesiales	23198
+127563	organism	7	family	Chrysochromulinaceae	23204
+127563	organism	8	genus	Chrysochromulina	23205
+127563	organism	9	species	Chrysochromulina parva	23234
+70075	organism	0	life	Life	1
+70075	organism	1	undefined	Eukaryota	2
+70075	organism	2	undefined	Diaphoretickes	836
+70075	organism	3	undefined	Sar	23763
+70075	organism	4	undefined	Alveolata	23764
+70075	organism	5	undefined	Ciliophora	23767
+70075	organism	6	undefined	Intramacronucleata	23768
+70075	organism	7	undefined	'SAL'	24443
+70075	organism	8	undefined	'ACM clade'	24444
+70075	organism	9	class	Armophorea	24445
+70075	organism	10	undefined	'MAC clade'	24446
+70075	organism	11	undefined	'HAC clade'	24447
+70075	organism	12	undefined	'LAC clade'	24450
+70075	organism	13	order	Clevelandellida	24481
+70075	organism	14	undefined	'core Clev'	24482
+70075	organism	15	genus	'Novalis1 lineage'	24487
+70075	organism	16	species	Nyctotherus ovalis	24488
+12967	organism	0	life	Life	1
+12967	organism	1	undefined	Eukaryota	2
+12967	organism	2	undefined	Diaphoretickes	836
+12967	organism	3	undefined	Sar	23763
+12967	organism	4	undefined	Stramenopiles	30095
+12967	organism	5	undefined	'GOS clade'	30096
+12967	organism	6	undefined	Opalozoa	53517
+12967	organism	7	undefined	Opalinata	53598
+12967	organism	8	genus	Blastocystis	53599
+143163	organism	0	life	Life	1
+143163	organism	1	undefined	Eukaryota	2
+143163	organism	2	undefined	Diaphoretickes	836
+143163	organism	3	undefined	Sar	23763
+143163	organism	4	undefined	Stramenopiles	30095
+143163	organism	5	undefined	'GOS clade'	30096
+143163	organism	6	undefined	Gyrista	30097
+143163	organism	7	undefined	Ochrophyta	30138
+143163	organism	8	undefined	'PX clade'	49534
+143163	organism	9	class	Phaeophyceae	49548
+143163	organism	10	subclass	Fucophycidae	50087
+143163	organism	11	order	Fucales	51047
+143163	organism	12	family	Sargassaceae	51092
+143163	organism	13	genus	Sargassum	51240
+143163	organism	14	species	Sargassum fluitans	51346
+660925	organism	0	life	Life	1
+660925	organism	1	undefined	Eukaryota	2
+660925	organism	2	undefined	Diaphoretickes	836
+660925	organism	3	undefined	Telonemia	53711
+3144	organism	0	life	Life	1
+3144	organism	1	undefined	Eukaryota	2
+3144	organism	2	undefined	Diaphoretickes	836
+3144	organism	3	undefined	Archaeplastida	864
+3144	organism	4	undefined	Chloroplastida	9339
+3144	organism	5	undefined	Streptophyta	17433
+3144	organism	6	undefined	'CM clade'	17434
+3144	organism	7	class	Chlorokybophyceae	17435
+3144	organism	8	genus	Chlorokybus	17436
+3144	organism	9	species	Chlorokybus atmophyticus	17437
+5755	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+108607	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+261658	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+44689	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5778	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+1157699	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+3702	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+3197	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+49451	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+4097	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5691	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5763	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5762	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+51637	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+299833	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+1703429	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+2903	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+221722	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5741	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5722	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+2049356	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+529818	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+1277256	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+28583	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+4932	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5270	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+1485682	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+1246581	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+81824	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+9606	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5807	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+110365	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5833	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5811	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5932	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+1172189	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5888	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5885	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5911	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+31276	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+37360	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+46433	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+478820	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+33653	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+556484	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+4787	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5757	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+361072	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+13642	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+56867	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+52970	UNMATCHED			unknown NCBI taxid	
+1008807	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+1239300	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+221724	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+154970	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+74792	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5901	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5905	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+5907	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+1542312	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+1492817	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+372086	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+143453	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+162120	UNMATCHED			organism not present in EukMap (no direct species/name match)	
+60186	UNMATCHED			organism not present in EukMap (no direct species/name match)	

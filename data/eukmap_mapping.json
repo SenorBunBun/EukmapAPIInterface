@@ -1,0 +1,5992 @@
+{
+  "results": [
+    {
+      "query": "2044563",
+      "ncbi": {
+        "taxid": "2044563",
+        "name": "Ancoracysta twista",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Ancoracysta twista",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "ancoracysta",
+          "nebulidia",
+          "provora"
+        ]
+      },
+      "matched": {
+        "id": "23740",
+        "name": "Ancoracysta twista",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "23735",
+          "name": "Provora",
+          "rank": "undefined"
+        },
+        {
+          "id": "23737",
+          "name": "Nebulidia",
+          "rank": "undefined"
+        },
+        {
+          "id": "23739",
+          "name": "Ancoracysta",
+          "rank": "genus"
+        },
+        {
+          "id": "23740",
+          "name": "Ancoracysta twista",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "2762",
+      "ncbi": {
+        "taxid": "2762",
+        "name": "Cyanophora paradoxa",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Cyanophora paradoxa",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "cyanophora",
+          "cyanophoraceae"
+        ]
+      },
+      "matched": {
+        "id": "22502",
+        "name": "Cyanophora paradoxa",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "22490",
+          "name": "Glaucophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "22493",
+          "name": "Cyanophoraceae",
+          "rank": "family"
+        },
+        {
+          "id": "22494",
+          "name": "Cyanophora",
+          "rank": "genus"
+        },
+        {
+          "id": "22502",
+          "name": "Cyanophora paradoxa",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "38271",
+      "ncbi": {
+        "taxid": "38271",
+        "name": "Glaucocystis nostochinearum",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Glaucocystis nostochinearum",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "glaucocystaceae",
+          "glaucocystis"
+        ]
+      },
+      "matched": {
+        "id": "22546",
+        "name": "Glaucocystis nostochinearum",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "22490",
+          "name": "Glaucophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "22521",
+          "name": "Glaucocystaceae",
+          "rank": "family"
+        },
+        {
+          "id": "22522",
+          "name": "Glaucocystis",
+          "rank": "genus"
+        },
+        {
+          "id": "22546",
+          "name": "Glaucocystis nostochinearum",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "2584957",
+      "ncbi": {
+        "taxid": "2584957",
+        "name": "Rhodelphis marinus",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Rhodelphis marinus",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "rhodelphis"
+        ]
+      },
+      "matched": {
+        "id": "906",
+        "name": "Rhodelphis marinus",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "865",
+          "name": "'PRR clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "901",
+          "name": "Rhodelphidia",
+          "rank": "phylum"
+        },
+        {
+          "id": "903",
+          "name": "Rhodelphis",
+          "rank": "genus"
+        },
+        {
+          "id": "906",
+          "name": "Rhodelphis marinus",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "35688",
+      "ncbi": {
+        "taxid": "35688",
+        "name": "Porphyridium purpureum",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Porphyridium purpureum",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "porphyridiales",
+          "porphyridium",
+          "rhodophyta"
+        ]
+      },
+      "matched": {
+        "id": "9235",
+        "name": "Porphyridium purpureum",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "865",
+          "name": "'PRR clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "910",
+          "name": "Rhodophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "9129",
+          "name": "Proteorhodophytina",
+          "rank": "undefined"
+        },
+        {
+          "id": "9226",
+          "name": "Porphyridiophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "9227",
+          "name": "Porphyridiales",
+          "rank": "order"
+        },
+        {
+          "id": "9233",
+          "name": "Porphyridium",
+          "rank": "genus"
+        },
+        {
+          "id": "9235",
+          "name": "Porphyridium purpureum",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "45157",
+      "ncbi": {
+        "taxid": "45157",
+        "name": "Cyanidioschyzon merolae",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Cyanidioschyzon merolae",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "cyanidioschyzon",
+          "rhodophyta"
+        ]
+      },
+      "matched": {
+        "id": "934",
+        "name": "Cyanidioschyzon merolae",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "865",
+          "name": "'PRR clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "910",
+          "name": "Rhodophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "919",
+          "name": "Cyanidiophytina",
+          "rank": "undefined"
+        },
+        {
+          "id": "920",
+          "name": "Cyanidiophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "930",
+          "name": "Cyanidioschyzonales",
+          "rank": "order"
+        },
+        {
+          "id": "933",
+          "name": "Cyanidioschyzon",
+          "rank": "genus"
+        },
+        {
+          "id": "934",
+          "name": "Cyanidioschyzon merolae",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "130081",
+      "ncbi": {
+        "taxid": "130081",
+        "name": "Galdieria sulphuraria",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Galdieria sulphuraria",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "galdieria",
+          "galdieriales",
+          "rhodophyta"
+        ]
+      },
+      "matched": {
+        "id": "939",
+        "name": "Galdieria sulphuraria",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "865",
+          "name": "'PRR clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "910",
+          "name": "Rhodophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "919",
+          "name": "Cyanidiophytina",
+          "rank": "undefined"
+        },
+        {
+          "id": "920",
+          "name": "Cyanidiophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "935",
+          "name": "Galdieriales",
+          "rank": "order"
+        },
+        {
+          "id": "936",
+          "name": "Galdieria",
+          "rank": "genus"
+        },
+        {
+          "id": "939",
+          "name": "Galdieria sulphuraria",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "3055",
+      "ncbi": {
+        "taxid": "3055",
+        "name": "Chlamydomonas reinhardtii",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Chlamydomonas reinhardtii",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "chlamydomonadaceae",
+          "chlamydomonadales",
+          "chlamydomonas",
+          "chlorophyceae",
+          "chlorophyta"
+        ]
+      },
+      "matched": {
+        "id": "10327",
+        "name": "Chlamydomonas reinhardtii",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9339",
+          "name": "Chloroplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9340",
+          "name": "Chlorophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "9341",
+          "name": "'core chlorophytes'",
+          "rank": "undefined"
+        },
+        {
+          "id": "9394",
+          "name": "Chlorophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "9713",
+          "name": "Chlamydomonadales",
+          "rank": "order"
+        },
+        {
+          "id": "9787",
+          "name": "Chlamydomonadaceae",
+          "rank": "family"
+        },
+        {
+          "id": "9894",
+          "name": "Chlamydomonas",
+          "rank": "genus"
+        },
+        {
+          "id": "10327",
+          "name": "Chlamydomonas reinhardtii",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "41880",
+      "ncbi": {
+        "taxid": "41880",
+        "name": "Pycnococcus provasolii",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Pycnococcus provasolii",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "chlorophyta",
+          "pseudoscourfieldiales",
+          "pycnococcaceae",
+          "pycnococcus"
+        ]
+      },
+      "matched": {
+        "id": "17263",
+        "name": "Pycnococcus provasolii",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9339",
+          "name": "Chloroplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9340",
+          "name": "Chlorophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "17257",
+          "name": "Pseudoscourfieldiales",
+          "rank": "order"
+        },
+        {
+          "id": "17258",
+          "name": "Pycnococcaceae",
+          "rank": "family"
+        },
+        {
+          "id": "17261",
+          "name": "Pycnococcus",
+          "rank": "genus"
+        },
+        {
+          "id": "17263",
+          "name": "Pycnococcus provasolii",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "554065",
+      "ncbi": {
+        "taxid": "554065",
+        "name": "Chlorella variabilis",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Chlorella variabilis",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "chlorella",
+          "chlorellaceae",
+          "chlorellales",
+          "chlorophyta",
+          "trebouxiophyceae"
+        ]
+      },
+      "matched": {
+        "id": "14056",
+        "name": "Chlorella variabilis",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9339",
+          "name": "Chloroplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9340",
+          "name": "Chlorophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "9341",
+          "name": "'core chlorophytes'",
+          "rank": "undefined"
+        },
+        {
+          "id": "13982",
+          "name": "Trebouxiophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "13986",
+          "name": "Chlorellales",
+          "rank": "order"
+        },
+        {
+          "id": "13989",
+          "name": "Chlorellaceae",
+          "rank": "family"
+        },
+        {
+          "id": "14029",
+          "name": "Chlorella",
+          "rank": "genus"
+        },
+        {
+          "id": "14056",
+          "name": "Chlorella variabilis",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "69332",
+      "ncbi": {
+        "taxid": "69332",
+        "name": "Chara braunii",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Chara braunii",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "chara",
+          "characeae",
+          "charales",
+          "charophyceae",
+          "streptophyta"
+        ]
+      },
+      "matched": {
+        "id": "17562",
+        "name": "Chara braunii",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9339",
+          "name": "Chloroplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "17433",
+          "name": "Streptophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "17470",
+          "name": "'core streptophytes'",
+          "rank": "undefined"
+        },
+        {
+          "id": "17536",
+          "name": "Phragmoplastophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "17537",
+          "name": "Charophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "17538",
+          "name": "Charales",
+          "rank": "order"
+        },
+        {
+          "id": "17539",
+          "name": "Characeae",
+          "rank": "family"
+        },
+        {
+          "id": "17544",
+          "name": "Chara",
+          "rank": "genus"
+        },
+        {
+          "id": "17562",
+          "name": "Chara braunii",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "41882",
+      "ncbi": {
+        "taxid": "41882",
+        "name": "Mesostigma viride",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Mesostigma viride",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "mesostigma",
+          "mesostigmatophyceae",
+          "streptophyta"
+        ]
+      },
+      "matched": {
+        "id": "17444",
+        "name": "Mesostigma viride",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9339",
+          "name": "Chloroplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "17433",
+          "name": "Streptophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "17434",
+          "name": "'CM clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "17442",
+          "name": "Mesostigmatophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "17443",
+          "name": "Mesostigma",
+          "rank": "genus"
+        },
+        {
+          "id": "17444",
+          "name": "Mesostigma viride",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "190327",
+      "ncbi": {
+        "taxid": "190327",
+        "name": "Diphylleia rotans",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Diphylleia rotans",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "collodictyonidae",
+          "diphylleia"
+        ]
+      },
+      "matched": {
+        "id": "23",
+        "name": "Diphylleia rotans",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "4",
+          "name": "'CRuMs'",
+          "rank": "undefined"
+        },
+        {
+          "id": "5",
+          "name": "'CR clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "6",
+          "name": "Collodictyonidae",
+          "rank": "family"
+        },
+        {
+          "id": "22",
+          "name": "Diphylleia",
+          "rank": "genus"
+        },
+        {
+          "id": "23",
+          "name": "Diphylleia rotans",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "1122280",
+      "ncbi": {
+        "taxid": "1122280",
+        "name": "Rigifila ramosa",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Rigifila ramosa",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "rigifila",
+          "rigifilida"
+        ]
+      },
+      "matched": {
+        "id": "33",
+        "name": "Rigifila ramosa",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "4",
+          "name": "'CRuMs'",
+          "rank": "undefined"
+        },
+        {
+          "id": "5",
+          "name": "'CR clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "28",
+          "name": "Rigifilida",
+          "rank": "order"
+        },
+        {
+          "id": "32",
+          "name": "Rigifila",
+          "rank": "genus"
+        },
+        {
+          "id": "33",
+          "name": "Rigifila ramosa",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "233186",
+      "ncbi": {
+        "taxid": "233186",
+        "name": "Cryptomonas curvata",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Cryptomonas curvata",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "cryptomonadaceae",
+          "cryptomonadales",
+          "cryptomonas",
+          "cryptophyceae"
+        ]
+      },
+      "matched": {
+        "id": "23454",
+        "name": "Cryptomonas curvata",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "23324",
+          "name": "Pancryptista",
+          "rank": "undefined"
+        },
+        {
+          "id": "23326",
+          "name": "Cryptista",
+          "rank": "undefined"
+        },
+        {
+          "id": "23327",
+          "name": "'CK clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "23328",
+          "name": "Cryptophyceae",
+          "rank": "undefined"
+        },
+        {
+          "id": "23391",
+          "name": "Cryptomonadales",
+          "rank": "order"
+        },
+        {
+          "id": "23413",
+          "name": "Cryptomonadaceae",
+          "rank": "family"
+        },
+        {
+          "id": "23438",
+          "name": "Cryptomonas",
+          "rank": "genus"
+        },
+        {
+          "id": "23454",
+          "name": "Cryptomonas curvata",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "1255295",
+      "ncbi": {
+        "taxid": "1255295",
+        "name": "Goniomonas avonlea",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Goniomonas avonlea",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "cryptophyceae"
+        ]
+      },
+      "matched": {
+        "id": "23364",
+        "name": "Goniomonas avonlea",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "23324",
+          "name": "Pancryptista",
+          "rank": "undefined"
+        },
+        {
+          "id": "23326",
+          "name": "Cryptista",
+          "rank": "undefined"
+        },
+        {
+          "id": "23327",
+          "name": "'CK clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "23328",
+          "name": "Cryptophyceae",
+          "rank": "undefined"
+        },
+        {
+          "id": "23341",
+          "name": "'goniomonads'",
+          "rank": "undefined"
+        },
+        {
+          "id": "23363",
+          "name": "'Gavonlea lineage'",
+          "rank": "genus"
+        },
+        {
+          "id": "23364",
+          "name": "Goniomonas avonlea",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "652834",
+      "ncbi": {
+        "taxid": "652834",
+        "name": "Palpitomonas bilix",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Palpitomonas bilix",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "palpitomonas"
+        ]
+      },
+      "matched": {
+        "id": "23729",
+        "name": "Palpitomonas bilix",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "23324",
+          "name": "Pancryptista",
+          "rank": "undefined"
+        },
+        {
+          "id": "23326",
+          "name": "Cryptista",
+          "rank": "undefined"
+        },
+        {
+          "id": "23728",
+          "name": "Palpitomonas",
+          "rank": "genus"
+        },
+        {
+          "id": "23729",
+          "name": "Palpitomonas bilix",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "3039",
+      "ncbi": {
+        "taxid": "3039",
+        "name": "Euglena gracilis",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Euglena gracilis",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "discoba",
+          "euglena",
+          "euglenaceae",
+          "euglenales",
+          "euglenida"
+        ]
+      },
+      "matched": {
+        "id": "53912",
+        "name": "Euglena gracilis",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "53740",
+          "name": "Discoba",
+          "rank": "undefined"
+        },
+        {
+          "id": "53742",
+          "name": "Euglenozoa",
+          "rank": "undefined"
+        },
+        {
+          "id": "53758",
+          "name": "Euglenida",
+          "rank": "undefined"
+        },
+        {
+          "id": "53759",
+          "name": "'core euglenids'",
+          "rank": "undefined"
+        },
+        {
+          "id": "53772",
+          "name": "Olkaspira",
+          "rank": "undefined"
+        },
+        {
+          "id": "53775",
+          "name": "Spirocuta",
+          "rank": "undefined"
+        },
+        {
+          "id": "53805",
+          "name": "Euglenea",
+          "rank": "undefined"
+        },
+        {
+          "id": "53808",
+          "name": "Euglenophycidae",
+          "rank": "undefined"
+        },
+        {
+          "id": "53809",
+          "name": "Euglenales",
+          "rank": "order"
+        },
+        {
+          "id": "53810",
+          "name": "Euglenaceae",
+          "rank": "family"
+        },
+        {
+          "id": "53853",
+          "name": "Euglena",
+          "rank": "genus"
+        },
+        {
+          "id": "53912",
+          "name": "Euglena gracilis",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "3037",
+      "ncbi": {
+        "taxid": "3037",
+        "name": "Euglena longa",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Euglena longa",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "discoba",
+          "euglena",
+          "euglenaceae",
+          "euglenales",
+          "euglenida"
+        ]
+      },
+      "matched": {
+        "id": "53935",
+        "name": "Euglena longa",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "53740",
+          "name": "Discoba",
+          "rank": "undefined"
+        },
+        {
+          "id": "53742",
+          "name": "Euglenozoa",
+          "rank": "undefined"
+        },
+        {
+          "id": "53758",
+          "name": "Euglenida",
+          "rank": "undefined"
+        },
+        {
+          "id": "53759",
+          "name": "'core euglenids'",
+          "rank": "undefined"
+        },
+        {
+          "id": "53772",
+          "name": "Olkaspira",
+          "rank": "undefined"
+        },
+        {
+          "id": "53775",
+          "name": "Spirocuta",
+          "rank": "undefined"
+        },
+        {
+          "id": "53805",
+          "name": "Euglenea",
+          "rank": "undefined"
+        },
+        {
+          "id": "53808",
+          "name": "Euglenophycidae",
+          "rank": "undefined"
+        },
+        {
+          "id": "53809",
+          "name": "Euglenales",
+          "rank": "order"
+        },
+        {
+          "id": "53810",
+          "name": "Euglenaceae",
+          "rank": "family"
+        },
+        {
+          "id": "53853",
+          "name": "Euglena",
+          "rank": "genus"
+        },
+        {
+          "id": "53935",
+          "name": "Euglena longa",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "505711",
+      "ncbi": {
+        "taxid": "505711",
+        "name": "Andalucia godoyi",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Andalucia godoyi",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "andalucia",
+          "andaluciidae",
+          "andalucina",
+          "discoba",
+          "jakobida"
+        ]
+      },
+      "matched": {
+        "id": "55067",
+        "name": "Andalucia godoyi",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "53740",
+          "name": "Discoba",
+          "rank": "undefined"
+        },
+        {
+          "id": "55060",
+          "name": "Jakobida",
+          "rank": "order"
+        },
+        {
+          "id": "55061",
+          "name": "Andalucina",
+          "rank": "suborder"
+        },
+        {
+          "id": "55062",
+          "name": "Andaluciidae",
+          "rank": "family"
+        },
+        {
+          "id": "55064",
+          "name": "Andalucia",
+          "rank": "genus"
+        },
+        {
+          "id": "55067",
+          "name": "Andalucia godoyi",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "48483",
+      "ncbi": {
+        "taxid": "48483",
+        "name": "Reclinomonas americana",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Reclinomonas americana",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "discoba",
+          "histionidae",
+          "histionina",
+          "jakobida",
+          "reclinomonas"
+        ]
+      },
+      "matched": {
+        "id": "55112",
+        "name": "Reclinomonas americana",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "53740",
+          "name": "Discoba",
+          "rank": "undefined"
+        },
+        {
+          "id": "55060",
+          "name": "Jakobida",
+          "rank": "order"
+        },
+        {
+          "id": "55102",
+          "name": "Histionina",
+          "rank": "suborder"
+        },
+        {
+          "id": "55106",
+          "name": "Histionidae",
+          "rank": "family"
+        },
+        {
+          "id": "55111",
+          "name": "Reclinomonas",
+          "rank": "genus"
+        },
+        {
+          "id": "55112",
+          "name": "Reclinomonas americana",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "875863",
+      "ncbi": {
+        "taxid": "875863",
+        "name": "Tsukubamonas globosa",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Tsukubamonas globosa",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "discoba",
+          "tsukubamonas"
+        ]
+      },
+      "matched": {
+        "id": "55150",
+        "name": "Tsukubamonas globosa",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "53740",
+          "name": "Discoba",
+          "rank": "undefined"
+        },
+        {
+          "id": "55149",
+          "name": "Tsukubamonas",
+          "rank": "genus"
+        },
+        {
+          "id": "55150",
+          "name": "Tsukubamonas globosa",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "1460289",
+      "ncbi": {
+        "taxid": "1460289",
+        "name": "Chrysochromulina tobinii",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Chrysochromulina tobinii",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "chrysochromulina",
+          "chrysochromulinaceae",
+          "haptista",
+          "haptophyta",
+          "prymnesiales"
+        ]
+      },
+      "matched": {
+        "id": "23248",
+        "name": "Chrysochromulina tobinii",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "22563",
+          "name": "Haptista",
+          "rank": "undefined"
+        },
+        {
+          "id": "22597",
+          "name": "Haptophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "22705",
+          "name": "Prymnesiophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "23198",
+          "name": "Prymnesiales",
+          "rank": "order"
+        },
+        {
+          "id": "23204",
+          "name": "Chrysochromulinaceae",
+          "rank": "family"
+        },
+        {
+          "id": "23205",
+          "name": "Chrysochromulina",
+          "rank": "genus"
+        },
+        {
+          "id": "23248",
+          "name": "Chrysochromulina tobinii",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "2027451",
+      "ncbi": {
+        "taxid": "2027451",
+        "name": "Hemimastix kukwesjijk",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Hemimastix kukwesjijk",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "hemimastigophora",
+          "hemimastix",
+          "spironemidae"
+        ]
+      },
+      "matched": {
+        "id": "853",
+        "name": "Hemimastix kukwesjijk",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "837",
+          "name": "'HM clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "845",
+          "name": "Hemimastigophora",
+          "rank": "phylum"
+        },
+        {
+          "id": "850",
+          "name": "Spironemidae",
+          "rank": "family"
+        },
+        {
+          "id": "851",
+          "name": "Hemimastix",
+          "rank": "genus"
+        },
+        {
+          "id": "853",
+          "name": "Hemimastix kukwesjijk",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "2853422",
+      "ncbi": {
+        "taxid": "2853422",
+        "name": "Gefionella okellyi",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Gefionella okellyi",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "gefionella",
+          "malawimonadida",
+          "malawimonadidae"
+        ]
+      },
+      "matched": {
+        "id": "55160",
+        "name": "Gefionella okellyi",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "55152",
+          "name": "Malawimonadida",
+          "rank": "order"
+        },
+        {
+          "id": "55158",
+          "name": "Malawimonadidae",
+          "rank": "family"
+        },
+        {
+          "id": "55159",
+          "name": "Gefionella",
+          "rank": "genus"
+        },
+        {
+          "id": "55160",
+          "name": "Gefionella okellyi",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "136089",
+      "ncbi": {
+        "taxid": "136089",
+        "name": "Malawimonas jakobiformis",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Malawimonas jakobiformis",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "malawimonadida",
+          "malawimonadidae",
+          "malawimonas"
+        ]
+      },
+      "matched": {
+        "id": "55165",
+        "name": "Malawimonas jakobiformis",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "55152",
+          "name": "Malawimonadida",
+          "rank": "order"
+        },
+        {
+          "id": "55158",
+          "name": "Malawimonadidae",
+          "rank": "family"
+        },
+        {
+          "id": "55162",
+          "name": "Malawimonas",
+          "rank": "genus"
+        },
+        {
+          "id": "55165",
+          "name": "Malawimonas jakobiformis",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "281847",
+      "ncbi": {
+        "taxid": "281847",
+        "name": "Rozella allomycis",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Rozella allomycis",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "fungi",
+          "opisthokonta",
+          "rozella"
+        ]
+      },
+      "matched": {
+        "id": "771",
+        "name": "Rozella allomycis",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "47",
+          "name": "Amorphea",
+          "rank": "undefined"
+        },
+        {
+          "id": "365",
+          "name": "Obazoa",
+          "rank": "undefined"
+        },
+        {
+          "id": "395",
+          "name": "Opisthokonta",
+          "rank": "undefined"
+        },
+        {
+          "id": "660",
+          "name": "Nucletmycea",
+          "rank": "undefined"
+        },
+        {
+          "id": "661",
+          "name": "Fungi",
+          "rank": "undefined"
+        },
+        {
+          "id": "736",
+          "name": "'cryptomycota'",
+          "rank": "undefined"
+        },
+        {
+          "id": "745",
+          "name": "Rozellida",
+          "rank": "order"
+        },
+        {
+          "id": "761",
+          "name": "Rozella",
+          "rank": "genus"
+        },
+        {
+          "id": "768",
+          "name": "'Rallo group'",
+          "rank": "undefined"
+        },
+        {
+          "id": "771",
+          "name": "Rozella allomycis",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "691883",
+      "ncbi": {
+        "taxid": "691883",
+        "name": "Fonticula alba",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Fonticula alba",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "fonticula",
+          "opisthokonta",
+          "rotosphaerida"
+        ]
+      },
+      "matched": {
+        "id": "821",
+        "name": "Fonticula alba",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "47",
+          "name": "Amorphea",
+          "rank": "undefined"
+        },
+        {
+          "id": "365",
+          "name": "Obazoa",
+          "rank": "undefined"
+        },
+        {
+          "id": "395",
+          "name": "Opisthokonta",
+          "rank": "undefined"
+        },
+        {
+          "id": "660",
+          "name": "Nucletmycea",
+          "rank": "undefined"
+        },
+        {
+          "id": "788",
+          "name": "Rotosphaerida",
+          "rank": "order"
+        },
+        {
+          "id": "820",
+          "name": "Fonticula",
+          "rank": "genus"
+        },
+        {
+          "id": "821",
+          "name": "Fonticula alba",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "192875",
+      "ncbi": {
+        "taxid": "192875",
+        "name": "Capsaspora owczarzaki",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Capsaspora owczarzaki",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "capsaspora",
+          "filasterea",
+          "opisthokonta"
+        ]
+      },
+      "matched": {
+        "id": "557",
+        "name": "Capsaspora owczarzaki",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "47",
+          "name": "Amorphea",
+          "rank": "undefined"
+        },
+        {
+          "id": "365",
+          "name": "Obazoa",
+          "rank": "undefined"
+        },
+        {
+          "id": "395",
+          "name": "Opisthokonta",
+          "rank": "undefined"
+        },
+        {
+          "id": "396",
+          "name": "Holozoa",
+          "rank": "undefined"
+        },
+        {
+          "id": "553",
+          "name": "Filasterea",
+          "rank": "class"
+        },
+        {
+          "id": "554",
+          "name": "'capsasporids'",
+          "rank": "undefined"
+        },
+        {
+          "id": "556",
+          "name": "Capsaspora",
+          "rank": "genus"
+        },
+        {
+          "id": "557",
+          "name": "Capsaspora owczarzaki",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "470921",
+      "ncbi": {
+        "taxid": "470921",
+        "name": "Creolimax fragrantissima",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Creolimax fragrantissima",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "creolimax",
+          "ichthyophonida",
+          "ichthyosporea",
+          "opisthokonta"
+        ]
+      },
+      "matched": {
+        "id": "647",
+        "name": "Creolimax fragrantissima",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "47",
+          "name": "Amorphea",
+          "rank": "undefined"
+        },
+        {
+          "id": "365",
+          "name": "Obazoa",
+          "rank": "undefined"
+        },
+        {
+          "id": "395",
+          "name": "Opisthokonta",
+          "rank": "undefined"
+        },
+        {
+          "id": "396",
+          "name": "Holozoa",
+          "rank": "undefined"
+        },
+        {
+          "id": "577",
+          "name": "Ichthyosporea",
+          "rank": "class"
+        },
+        {
+          "id": "596",
+          "name": "Ichthyophonida",
+          "rank": "order"
+        },
+        {
+          "id": "637",
+          "name": "'CSA clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "644",
+          "name": "'sphaeroformids'",
+          "rank": "undefined"
+        },
+        {
+          "id": "645",
+          "name": "'CS group'",
+          "rank": "undefined"
+        },
+        {
+          "id": "646",
+          "name": "Creolimax",
+          "rank": "genus"
+        },
+        {
+          "id": "647",
+          "name": "Creolimax fragrantissima",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "72019",
+      "ncbi": {
+        "taxid": "72019",
+        "name": "Sphaeroforma arctica",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Sphaeroforma arctica",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "ichthyophonida",
+          "ichthyosporea",
+          "opisthokonta",
+          "sphaeroforma"
+        ]
+      },
+      "matched": {
+        "id": "649",
+        "name": "Sphaeroforma arctica",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "47",
+          "name": "Amorphea",
+          "rank": "undefined"
+        },
+        {
+          "id": "365",
+          "name": "Obazoa",
+          "rank": "undefined"
+        },
+        {
+          "id": "395",
+          "name": "Opisthokonta",
+          "rank": "undefined"
+        },
+        {
+          "id": "396",
+          "name": "Holozoa",
+          "rank": "undefined"
+        },
+        {
+          "id": "577",
+          "name": "Ichthyosporea",
+          "rank": "class"
+        },
+        {
+          "id": "596",
+          "name": "Ichthyophonida",
+          "rank": "order"
+        },
+        {
+          "id": "637",
+          "name": "'CSA clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "644",
+          "name": "'sphaeroformids'",
+          "rank": "undefined"
+        },
+        {
+          "id": "645",
+          "name": "'CS group'",
+          "rank": "undefined"
+        },
+        {
+          "id": "648",
+          "name": "Sphaeroforma",
+          "rank": "genus"
+        },
+        {
+          "id": "649",
+          "name": "Sphaeroforma arctica",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "505693",
+      "ncbi": {
+        "taxid": "505693",
+        "name": "Chromera velia",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Chromera velia",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "alveolata",
+          "chromera",
+          "chromeraceae",
+          "colpodellida",
+          "sar"
+        ]
+      },
+      "matched": {
+        "id": "25847",
+        "name": "Chromera velia",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "23763",
+          "name": "Sar",
+          "rank": "undefined"
+        },
+        {
+          "id": "23764",
+          "name": "Alveolata",
+          "rank": "undefined"
+        },
+        {
+          "id": "25692",
+          "name": "Myzozoa",
+          "rank": "undefined"
+        },
+        {
+          "id": "25693",
+          "name": "'AC clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "25835",
+          "name": "Colpodellida",
+          "rank": "order"
+        },
+        {
+          "id": "25843",
+          "name": "Chromeraceae",
+          "rank": "family"
+        },
+        {
+          "id": "25846",
+          "name": "Chromera",
+          "rank": "genus"
+        },
+        {
+          "id": "25847",
+          "name": "Chromera velia",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "1169539",
+      "ncbi": {
+        "taxid": "1169539",
+        "name": "Vitrella brassicaformis",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Vitrella brassicaformis",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "alveolata",
+          "colpodellida",
+          "sar",
+          "vitrella",
+          "vitrellaceae"
+        ]
+      },
+      "matched": {
+        "id": "25881",
+        "name": "Vitrella brassicaformis",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "23763",
+          "name": "Sar",
+          "rank": "undefined"
+        },
+        {
+          "id": "23764",
+          "name": "Alveolata",
+          "rank": "undefined"
+        },
+        {
+          "id": "25692",
+          "name": "Myzozoa",
+          "rank": "undefined"
+        },
+        {
+          "id": "25693",
+          "name": "'AC clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "25835",
+          "name": "Colpodellida",
+          "rank": "order"
+        },
+        {
+          "id": "25876",
+          "name": "Vitrellaceae",
+          "rank": "family"
+        },
+        {
+          "id": "25880",
+          "name": "Vitrella",
+          "rank": "genus"
+        },
+        {
+          "id": "25881",
+          "name": "Vitrella brassicaformis",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "878477",
+      "ncbi": {
+        "taxid": "878477",
+        "name": "Symbiodinium natans",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Symbiodinium natans",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "alveolata",
+          "dinophyceae",
+          "sar",
+          "suessiales",
+          "symbiodinium"
+        ]
+      },
+      "matched": {
+        "id": "28662",
+        "name": "Symbiodinium natans",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "23763",
+          "name": "Sar",
+          "rank": "undefined"
+        },
+        {
+          "id": "23764",
+          "name": "Alveolata",
+          "rank": "undefined"
+        },
+        {
+          "id": "25692",
+          "name": "Myzozoa",
+          "rank": "undefined"
+        },
+        {
+          "id": "25900",
+          "name": "'DP clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "25901",
+          "name": "Dinoflagellata",
+          "rank": "undefined"
+        },
+        {
+          "id": "25902",
+          "name": "'core dinos'",
+          "rank": "undefined"
+        },
+        {
+          "id": "25905",
+          "name": "Dinophyceae",
+          "rank": "undefined"
+        },
+        {
+          "id": "26344",
+          "name": "'thecates'",
+          "rank": "undefined"
+        },
+        {
+          "id": "28573",
+          "name": "Suessiales",
+          "rank": "order"
+        },
+        {
+          "id": "28599",
+          "name": "Suessiaceae",
+          "rank": "family"
+        },
+        {
+          "id": "28610",
+          "name": "'symbiodiniids'",
+          "rank": "undefined"
+        },
+        {
+          "id": "28659",
+          "name": "Symbiodinium",
+          "rank": "genus"
+        },
+        {
+          "id": "28662",
+          "name": "Symbiodinium natans",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "227086",
+      "ncbi": {
+        "taxid": "227086",
+        "name": "Bigelowiella natans",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Bigelowiella natans",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "bigelowiella",
+          "cercozoa",
+          "chlorarachniophyceae",
+          "rhizaria",
+          "sar"
+        ]
+      },
+      "matched": {
+        "id": "29733",
+        "name": "Bigelowiella natans",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "23763",
+          "name": "Sar",
+          "rank": "undefined"
+        },
+        {
+          "id": "29475",
+          "name": "Rhizaria",
+          "rank": "undefined"
+        },
+        {
+          "id": "29493",
+          "name": "Cercozoa",
+          "rank": "undefined"
+        },
+        {
+          "id": "29705",
+          "name": "Chlorarachnea",
+          "rank": "class"
+        },
+        {
+          "id": "29706",
+          "name": "'core chlorarachneans'",
+          "rank": "undefined"
+        },
+        {
+          "id": "29707",
+          "name": "Chlorarachniophyceae",
+          "rank": "undefined"
+        },
+        {
+          "id": "29725",
+          "name": "Bigelowiella",
+          "rank": "genus"
+        },
+        {
+          "id": "29733",
+          "name": "Bigelowiella natans",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "35128",
+      "ncbi": {
+        "taxid": "35128",
+        "name": "Thalassiosira pseudonana",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Thalassiosira pseudonana",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "ochrophyta",
+          "sar",
+          "stramenopiles",
+          "thalassiosira",
+          "thalassiosiraceae"
+        ]
+      },
+      "matched": {
+        "id": "46557",
+        "name": "Thalassiosira pseudonana",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "23763",
+          "name": "Sar",
+          "rank": "undefined"
+        },
+        {
+          "id": "30095",
+          "name": "Stramenopiles",
+          "rank": "undefined"
+        },
+        {
+          "id": "30096",
+          "name": "'GOS clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "30097",
+          "name": "Gyrista",
+          "rank": "undefined"
+        },
+        {
+          "id": "30138",
+          "name": "Ochrophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "30139",
+          "name": "'BD clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "30171",
+          "name": "Diatomeae",
+          "rank": "undefined"
+        },
+        {
+          "id": "30179",
+          "name": "Bacillariophytina",
+          "rank": "undefined"
+        },
+        {
+          "id": "45104",
+          "name": "Mediophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "46034",
+          "name": "Thalassiosirophycidae",
+          "rank": "subclass"
+        },
+        {
+          "id": "46329",
+          "name": "Thalassiosirales",
+          "rank": "order"
+        },
+        {
+          "id": "46354",
+          "name": "Thalassiosiraceae",
+          "rank": "family"
+        },
+        {
+          "id": "46452",
+          "name": "Thalassiosira",
+          "rank": "genus"
+        },
+        {
+          "id": "46557",
+          "name": "Thalassiosira pseudonana",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "44439",
+      "ncbi": {
+        "taxid": "44439",
+        "name": "Chattonella",
+        "rank": "genus"
+      },
+      "bridge": {
+        "ncbi_name": "Chattonella",
+        "ncbi_rank": "genus",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "chattonellaceae",
+          "chattonellales",
+          "ochrophyta",
+          "raphidophyceae",
+          "sar"
+        ]
+      },
+      "matched": {
+        "id": "53323",
+        "name": "Chattonella",
+        "rank": "genus"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "23763",
+          "name": "Sar",
+          "rank": "undefined"
+        },
+        {
+          "id": "30095",
+          "name": "Stramenopiles",
+          "rank": "undefined"
+        },
+        {
+          "id": "30096",
+          "name": "'GOS clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "30097",
+          "name": "Gyrista",
+          "rank": "undefined"
+        },
+        {
+          "id": "30138",
+          "name": "Ochrophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "53318",
+          "name": "Raphidophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "53321",
+          "name": "Chattonellales",
+          "rank": "order"
+        },
+        {
+          "id": "53322",
+          "name": "Chattonellaceae",
+          "rank": "family"
+        },
+        {
+          "id": "53323",
+          "name": "Chattonella",
+          "rank": "genus"
+        }
+      ]
+    },
+    {
+      "query": "2786",
+      "ncbi": {
+        "taxid": "2786",
+        "name": "Porphyra umbilicalis",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Porphyra umbilicalis",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "bangiaceae",
+          "bangiales",
+          "bangiophyceae",
+          "porphyra",
+          "rhodophyta"
+        ]
+      },
+      "matched": {
+        "id": "1050",
+        "name": "Porphyra umbilicalis",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "865",
+          "name": "'PRR clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "910",
+          "name": "Rhodophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "944",
+          "name": "Eurhodophytina",
+          "rank": "undefined"
+        },
+        {
+          "id": "945",
+          "name": "Bangiophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "946",
+          "name": "Bangiales",
+          "rank": "order"
+        },
+        {
+          "id": "947",
+          "name": "Bangiaceae",
+          "rank": "family"
+        },
+        {
+          "id": "1001",
+          "name": "Porphyra",
+          "rank": "genus"
+        },
+        {
+          "id": "1050",
+          "name": "Porphyra umbilicalis",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "31312",
+      "ncbi": {
+        "taxid": "31312",
+        "name": "Nephroselmis olivacea",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Nephroselmis olivacea",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "chlorophyta",
+          "nephroselmidales",
+          "nephroselmidophyceae",
+          "nephroselmis"
+        ]
+      },
+      "matched": {
+        "id": "17241",
+        "name": "Nephroselmis olivacea",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9339",
+          "name": "Chloroplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9340",
+          "name": "Chlorophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "17216",
+          "name": "Nephroselmidophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "17217",
+          "name": "Nephroselmidales",
+          "rank": "order"
+        },
+        {
+          "id": "17232",
+          "name": "Nephroselmis",
+          "rank": "genus"
+        },
+        {
+          "id": "17241",
+          "name": "Nephroselmis olivacea",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "3111",
+      "ncbi": {
+        "taxid": "3111",
+        "name": "Prototheca wickerhamii",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Prototheca wickerhamii",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "chlorellaceae",
+          "chlorellales",
+          "chlorophyta",
+          "prototheca",
+          "trebouxiophyceae"
+        ]
+      },
+      "matched": {
+        "id": "14263",
+        "name": "Prototheca wickerhamii",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9339",
+          "name": "Chloroplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9340",
+          "name": "Chlorophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "9341",
+          "name": "'core chlorophytes'",
+          "rank": "undefined"
+        },
+        {
+          "id": "13982",
+          "name": "Trebouxiophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "13986",
+          "name": "Chlorellales",
+          "rank": "order"
+        },
+        {
+          "id": "13989",
+          "name": "Chlorellaceae",
+          "rank": "family"
+        },
+        {
+          "id": "14242",
+          "name": "Prototheca",
+          "rank": "genus"
+        },
+        {
+          "id": "14263",
+          "name": "Prototheca wickerhamii",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "3112",
+      "ncbi": {
+        "taxid": "3112",
+        "name": "Prototheca zopfii",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Prototheca zopfii",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "chlorellaceae",
+          "chlorellales",
+          "chlorophyta",
+          "prototheca",
+          "trebouxiophyceae"
+        ]
+      },
+      "matched": {
+        "id": "14265",
+        "name": "Prototheca zopfii",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9339",
+          "name": "Chloroplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9340",
+          "name": "Chlorophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "9341",
+          "name": "'core chlorophytes'",
+          "rank": "undefined"
+        },
+        {
+          "id": "13982",
+          "name": "Trebouxiophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "13986",
+          "name": "Chlorellales",
+          "rank": "order"
+        },
+        {
+          "id": "13989",
+          "name": "Chlorellaceae",
+          "rank": "family"
+        },
+        {
+          "id": "14242",
+          "name": "Prototheca",
+          "rank": "genus"
+        },
+        {
+          "id": "14265",
+          "name": "Prototheca zopfii",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "55564",
+      "ncbi": {
+        "taxid": "55564",
+        "name": "Chara vulgaris",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Chara vulgaris",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "chara",
+          "characeae",
+          "charales",
+          "charophyceae",
+          "streptophyta"
+        ]
+      },
+      "matched": {
+        "id": "17703",
+        "name": "Chara vulgaris",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9339",
+          "name": "Chloroplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "17433",
+          "name": "Streptophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "17470",
+          "name": "'core streptophytes'",
+          "rank": "undefined"
+        },
+        {
+          "id": "17536",
+          "name": "Phragmoplastophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "17537",
+          "name": "Charophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "17538",
+          "name": "Charales",
+          "rank": "order"
+        },
+        {
+          "id": "17539",
+          "name": "Characeae",
+          "rank": "family"
+        },
+        {
+          "id": "17544",
+          "name": "Chara",
+          "rank": "genus"
+        },
+        {
+          "id": "17703",
+          "name": "Chara vulgaris",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "299206",
+      "ncbi": {
+        "taxid": "299206",
+        "name": "Leucocryptos marina",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Leucocryptos marina",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "kathablepharidacea",
+          "leucocryptos"
+        ]
+      },
+      "matched": {
+        "id": "23719",
+        "name": "Leucocryptos marina",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "23324",
+          "name": "Pancryptista",
+          "rank": "undefined"
+        },
+        {
+          "id": "23326",
+          "name": "Cryptista",
+          "rank": "undefined"
+        },
+        {
+          "id": "23327",
+          "name": "'CK clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "23697",
+          "name": "Kathablepharidacea",
+          "rank": "undefined"
+        },
+        {
+          "id": "23698",
+          "name": "'core kathablepharids'",
+          "rank": "undefined"
+        },
+        {
+          "id": "23718",
+          "name": "Leucocryptos",
+          "rank": "genus"
+        },
+        {
+          "id": "23719",
+          "name": "Leucocryptos marina",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "392300",
+      "ncbi": {
+        "taxid": "392300",
+        "name": "Histiona aroides",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Histiona aroides",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "discoba",
+          "histiona",
+          "histionidae",
+          "histionina",
+          "jakobida"
+        ]
+      },
+      "matched": {
+        "id": "55108",
+        "name": "Histiona aroides",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "53740",
+          "name": "Discoba",
+          "rank": "undefined"
+        },
+        {
+          "id": "55060",
+          "name": "Jakobida",
+          "rank": "order"
+        },
+        {
+          "id": "55102",
+          "name": "Histionina",
+          "rank": "suborder"
+        },
+        {
+          "id": "55106",
+          "name": "Histionidae",
+          "rank": "family"
+        },
+        {
+          "id": "55107",
+          "name": "Histiona",
+          "rank": "genus"
+        },
+        {
+          "id": "55108",
+          "name": "Histiona aroides",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "143017",
+      "ncbi": {
+        "taxid": "143017",
+        "name": "Jakoba libera",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Jakoba libera",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "discoba",
+          "histionina",
+          "jakoba",
+          "jakobida"
+        ]
+      },
+      "matched": {
+        "id": "55128",
+        "name": "Jakoba libera",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "53740",
+          "name": "Discoba",
+          "rank": "undefined"
+        },
+        {
+          "id": "55060",
+          "name": "Jakobida",
+          "rank": "order"
+        },
+        {
+          "id": "55102",
+          "name": "Histionina",
+          "rank": "suborder"
+        },
+        {
+          "id": "55125",
+          "name": "Jakoba",
+          "rank": "genus"
+        },
+        {
+          "id": "55128",
+          "name": "Jakoba libera",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "127563",
+      "ncbi": {
+        "taxid": "127563",
+        "name": "Chrysochromulina parva",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Chrysochromulina parva",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "chrysochromulina",
+          "chrysochromulinaceae",
+          "haptista",
+          "haptophyta",
+          "prymnesiales"
+        ]
+      },
+      "matched": {
+        "id": "23234",
+        "name": "Chrysochromulina parva",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "22563",
+          "name": "Haptista",
+          "rank": "undefined"
+        },
+        {
+          "id": "22597",
+          "name": "Haptophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "22705",
+          "name": "Prymnesiophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "23198",
+          "name": "Prymnesiales",
+          "rank": "order"
+        },
+        {
+          "id": "23204",
+          "name": "Chrysochromulinaceae",
+          "rank": "family"
+        },
+        {
+          "id": "23205",
+          "name": "Chrysochromulina",
+          "rank": "genus"
+        },
+        {
+          "id": "23234",
+          "name": "Chrysochromulina parva",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "70075",
+      "ncbi": {
+        "taxid": "70075",
+        "name": "Nyctotherus ovalis",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Nyctotherus ovalis",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "alveolata",
+          "armophorea",
+          "ciliophora",
+          "clevelandellida",
+          "intramacronucleata"
+        ]
+      },
+      "matched": {
+        "id": "24488",
+        "name": "Nyctotherus ovalis",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "23763",
+          "name": "Sar",
+          "rank": "undefined"
+        },
+        {
+          "id": "23764",
+          "name": "Alveolata",
+          "rank": "undefined"
+        },
+        {
+          "id": "23767",
+          "name": "Ciliophora",
+          "rank": "undefined"
+        },
+        {
+          "id": "23768",
+          "name": "Intramacronucleata",
+          "rank": "undefined"
+        },
+        {
+          "id": "24443",
+          "name": "'SAL'",
+          "rank": "undefined"
+        },
+        {
+          "id": "24444",
+          "name": "'ACM clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "24445",
+          "name": "Armophorea",
+          "rank": "class"
+        },
+        {
+          "id": "24446",
+          "name": "'MAC clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "24447",
+          "name": "'HAC clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "24450",
+          "name": "'LAC clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "24481",
+          "name": "Clevelandellida",
+          "rank": "order"
+        },
+        {
+          "id": "24482",
+          "name": "'core Clev'",
+          "rank": "undefined"
+        },
+        {
+          "id": "24487",
+          "name": "'Novalis1 lineage'",
+          "rank": "genus"
+        },
+        {
+          "id": "24488",
+          "name": "Nyctotherus ovalis",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "12967",
+      "ncbi": {
+        "taxid": "12967",
+        "name": "Blastocystis",
+        "rank": "genus"
+      },
+      "bridge": {
+        "ncbi_name": "Blastocystis",
+        "ncbi_rank": "genus",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "opalinata",
+          "opalozoa",
+          "sar",
+          "stramenopiles"
+        ]
+      },
+      "matched": {
+        "id": "53599",
+        "name": "Blastocystis",
+        "rank": "genus"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "23763",
+          "name": "Sar",
+          "rank": "undefined"
+        },
+        {
+          "id": "30095",
+          "name": "Stramenopiles",
+          "rank": "undefined"
+        },
+        {
+          "id": "30096",
+          "name": "'GOS clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "53517",
+          "name": "Opalozoa",
+          "rank": "undefined"
+        },
+        {
+          "id": "53598",
+          "name": "Opalinata",
+          "rank": "undefined"
+        },
+        {
+          "id": "53599",
+          "name": "Blastocystis",
+          "rank": "genus"
+        }
+      ]
+    },
+    {
+      "query": "143163",
+      "ncbi": {
+        "taxid": "143163",
+        "name": "Sargassum fluitans",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Sargassum fluitans",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "fucales",
+          "ochrophyta",
+          "phaeophyceae",
+          "sar",
+          "sargassaceae"
+        ]
+      },
+      "matched": {
+        "id": "51346",
+        "name": "Sargassum fluitans",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "23763",
+          "name": "Sar",
+          "rank": "undefined"
+        },
+        {
+          "id": "30095",
+          "name": "Stramenopiles",
+          "rank": "undefined"
+        },
+        {
+          "id": "30096",
+          "name": "'GOS clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "30097",
+          "name": "Gyrista",
+          "rank": "undefined"
+        },
+        {
+          "id": "30138",
+          "name": "Ochrophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "49534",
+          "name": "'PX clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "49548",
+          "name": "Phaeophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "50087",
+          "name": "Fucophycidae",
+          "rank": "subclass"
+        },
+        {
+          "id": "51047",
+          "name": "Fucales",
+          "rank": "order"
+        },
+        {
+          "id": "51092",
+          "name": "Sargassaceae",
+          "rank": "family"
+        },
+        {
+          "id": "51240",
+          "name": "Sargassum",
+          "rank": "genus"
+        },
+        {
+          "id": "51346",
+          "name": "Sargassum fluitans",
+          "rank": "species"
+        }
+      ]
+    },
+    {
+      "query": "660925",
+      "ncbi": {
+        "taxid": "660925",
+        "name": "Telonemia",
+        "rank": "phylum"
+      },
+      "bridge": {
+        "ncbi_name": "Telonemia",
+        "ncbi_rank": "phylum",
+        "via": "organism",
+        "corroborated": false
+      },
+      "matched": {
+        "id": "53711",
+        "name": "Telonemia",
+        "rank": "undefined"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "53711",
+          "name": "Telonemia",
+          "rank": "undefined"
+        }
+      ]
+    },
+    {
+      "query": "3144",
+      "ncbi": {
+        "taxid": "3144",
+        "name": "Chlorokybus atmophyticus",
+        "rank": "species"
+      },
+      "bridge": {
+        "ncbi_name": "Chlorokybus atmophyticus",
+        "ncbi_rank": "species",
+        "via": "organism",
+        "corroborated": true,
+        "corroborated_by": [
+          "chlorokybophyceae",
+          "chlorokybus",
+          "streptophyta"
+        ]
+      },
+      "matched": {
+        "id": "17437",
+        "name": "Chlorokybus atmophyticus",
+        "rank": "species"
+      },
+      "lineage": [
+        {
+          "id": "1",
+          "name": "Life",
+          "rank": "life"
+        },
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined"
+        },
+        {
+          "id": "836",
+          "name": "Diaphoretickes",
+          "rank": "undefined"
+        },
+        {
+          "id": "864",
+          "name": "Archaeplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "9339",
+          "name": "Chloroplastida",
+          "rank": "undefined"
+        },
+        {
+          "id": "17433",
+          "name": "Streptophyta",
+          "rank": "undefined"
+        },
+        {
+          "id": "17434",
+          "name": "'CM clade'",
+          "rank": "undefined"
+        },
+        {
+          "id": "17435",
+          "name": "Chlorokybophyceae",
+          "rank": "class"
+        },
+        {
+          "id": "17436",
+          "name": "Chlorokybus",
+          "rank": "genus"
+        },
+        {
+          "id": "17437",
+          "name": "Chlorokybus atmophyticus",
+          "rank": "species"
+        }
+      ]
+    }
+  ],
+  "unmatched": [
+    {
+      "query": "5755",
+      "ncbi_name": "Acanthamoeba castellanii",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "108607",
+      "ncbi_name": "Mastigamoeba balamuthi",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "261658",
+      "ncbi_name": "Cavenderia fasciculata",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "44689",
+      "ncbi_name": "Dictyostelium discoideum",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5778",
+      "ncbi_name": "Vermamoeba vermiformis",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "1157699",
+      "ncbi_name": "Picobiliphyte sp. MS584-11",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "3702",
+      "ncbi_name": "Arabidopsis thaliana",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "3197",
+      "ncbi_name": "Marchantia polymorpha",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "49451",
+      "ncbi_name": "Nicotiana attenuata",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "4097",
+      "ncbi_name": "Nicotiana tabacum",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5691",
+      "ncbi_name": "Trypanosoma brucei",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5763",
+      "ncbi_name": "Naegleria fowleri",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5762",
+      "ncbi_name": "Naegleria gruberi",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "51637",
+      "ncbi_name": "Naegleria lovaniensis",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "299833",
+      "ncbi_name": "Raineriophrys erinaceoides",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "1703429",
+      "ncbi_name": "Raphidiophrys heterophryoidea",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "2903",
+      "ncbi_name": "Emiliania huxleyi",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "221722",
+      "ncbi_name": "Malawimonas californiana (nom. ined.)",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5741",
+      "ncbi_name": "Giardia duodenalis",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5722",
+      "ncbi_name": "Trichomonas vaginalis",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "2049356",
+      "ncbi_name": "Monocercomonoides exilis",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "529818",
+      "ncbi_name": "Thecamonas trahens",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "1277256",
+      "ncbi_name": "Pygsuia biforma",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "28583",
+      "ncbi_name": "Allomyces macrogynus",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "4932",
+      "ncbi_name": "Saccharomyces cerevisiae",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5270",
+      "ncbi_name": "Mycosarcoma maydis",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "1485682",
+      "ncbi_name": "Mitosporidium daphniae",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "1246581",
+      "ncbi_name": "Paramicrosporidium saccamoebae",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "81824",
+      "ncbi_name": "Monosiga brevicollis",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "9606",
+      "ncbi_name": "Homo sapiens",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5807",
+      "ncbi_name": "Cryptosporidium parvum",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "110365",
+      "ncbi_name": "Gregarina niphandrodes",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5833",
+      "ncbi_name": "Plasmodium falciparum",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5811",
+      "ncbi_name": "Toxoplasma gondii",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5932",
+      "ncbi_name": "Ichthyophthirius multifiliis",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "1172189",
+      "ncbi_name": "Oxytricha trifallax",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5888",
+      "ncbi_name": "Paramecium tetraurelia",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5885",
+      "ncbi_name": "Paramecium caudatum",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5911",
+      "ncbi_name": "Tetrahymena thermophila",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "31276",
+      "ncbi_name": "Perkinsus marinus",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "37360",
+      "ncbi_name": "Plasmodiophora brassicae",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "46433",
+      "ncbi_name": "Reticulomyxa filosa",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "478820",
+      "ncbi_name": "Blastocystis sp. ATCC 50177/Nand II",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "33653",
+      "ncbi_name": "Cafeteria roenbergensis",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "556484",
+      "ncbi_name": "Phaeodactylum tricornutum CCAP 1055/1",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "4787",
+      "ncbi_name": "Phytophthora infestans",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5757",
+      "ncbi_name": "Acanthamoeba polyphaga",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "361072",
+      "ncbi_name": "Dictyostelium citrinum",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "13642",
+      "ncbi_name": "Heterostelium pallidum",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "56867",
+      "ncbi_name": "Marchantia paleacea",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "52970",
+      "reason": "unknown NCBI taxid"
+    },
+    {
+      "query": "1008807",
+      "ncbi_name": "Acrasis kona",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "1239300",
+      "ncbi_name": "Heterolobosea sp. BB2",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "221724",
+      "ncbi_name": "Seculamonas ecuadoriensis",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "154970",
+      "ncbi_name": "Nuclearia simplex",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "74792",
+      "ncbi_name": "Moneuplotes minuta",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5901",
+      "ncbi_name": "Tetrahymena malaccensis",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5905",
+      "ncbi_name": "Tetrahymena paravorax",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "5907",
+      "ncbi_name": "Tetrahymena pigmentosa",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "1542312",
+      "ncbi_name": "Acavomonas peruviana",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "1492817",
+      "ncbi_name": "Colponema vietnamica",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "372086",
+      "ncbi_name": "Paracercomonas marina",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "143453",
+      "ncbi_name": "Pseudoperonospora cubensis",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "162120",
+      "ncbi_name": "Pseudoperonospora humuli",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    },
+    {
+      "query": "60186",
+      "ncbi_name": "Rhizophydium",
+      "reason": "organism not present in EukMap (no direct species/name match)"
+    }
+  ],
+  "merged_tree": [
+    {
+      "id": "1",
+      "name": "Life",
+      "rank": "life",
+      "children": [
+        {
+          "id": "2",
+          "name": "Eukaryota",
+          "rank": "undefined",
+          "children": [
+            {
+              "id": "836",
+              "name": "Diaphoretickes",
+              "rank": "undefined",
+              "children": [
+                {
+                  "id": "23735",
+                  "name": "Provora",
+                  "rank": "undefined",
+                  "children": [
+                    {
+                      "id": "23737",
+                      "name": "Nebulidia",
+                      "rank": "undefined",
+                      "children": [
+                        {
+                          "id": "23739",
+                          "name": "Ancoracysta",
+                          "rank": "genus",
+                          "children": [
+                            {
+                              "id": "23740",
+                              "name": "Ancoracysta twista",
+                              "rank": "species",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "864",
+                  "name": "Archaeplastida",
+                  "rank": "undefined",
+                  "children": [
+                    {
+                      "id": "22490",
+                      "name": "Glaucophyta",
+                      "rank": "undefined",
+                      "children": [
+                        {
+                          "id": "22493",
+                          "name": "Cyanophoraceae",
+                          "rank": "family",
+                          "children": [
+                            {
+                              "id": "22494",
+                              "name": "Cyanophora",
+                              "rank": "genus",
+                              "children": [
+                                {
+                                  "id": "22502",
+                                  "name": "Cyanophora paradoxa",
+                                  "rank": "species",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "22521",
+                          "name": "Glaucocystaceae",
+                          "rank": "family",
+                          "children": [
+                            {
+                              "id": "22522",
+                              "name": "Glaucocystis",
+                              "rank": "genus",
+                              "children": [
+                                {
+                                  "id": "22546",
+                                  "name": "Glaucocystis nostochinearum",
+                                  "rank": "species",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "865",
+                      "name": "'PRR clade'",
+                      "rank": "undefined",
+                      "children": [
+                        {
+                          "id": "901",
+                          "name": "Rhodelphidia",
+                          "rank": "phylum",
+                          "children": [
+                            {
+                              "id": "903",
+                              "name": "Rhodelphis",
+                              "rank": "genus",
+                              "children": [
+                                {
+                                  "id": "906",
+                                  "name": "Rhodelphis marinus",
+                                  "rank": "species",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "910",
+                          "name": "Rhodophyta",
+                          "rank": "undefined",
+                          "children": [
+                            {
+                              "id": "9129",
+                              "name": "Proteorhodophytina",
+                              "rank": "undefined",
+                              "children": [
+                                {
+                                  "id": "9226",
+                                  "name": "Porphyridiophyceae",
+                                  "rank": "class",
+                                  "children": [
+                                    {
+                                      "id": "9227",
+                                      "name": "Porphyridiales",
+                                      "rank": "order",
+                                      "children": [
+                                        {
+                                          "id": "9233",
+                                          "name": "Porphyridium",
+                                          "rank": "genus",
+                                          "children": [
+                                            {
+                                              "id": "9235",
+                                              "name": "Porphyridium purpureum",
+                                              "rank": "species",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "919",
+                              "name": "Cyanidiophytina",
+                              "rank": "undefined",
+                              "children": [
+                                {
+                                  "id": "920",
+                                  "name": "Cyanidiophyceae",
+                                  "rank": "class",
+                                  "children": [
+                                    {
+                                      "id": "930",
+                                      "name": "Cyanidioschyzonales",
+                                      "rank": "order",
+                                      "children": [
+                                        {
+                                          "id": "933",
+                                          "name": "Cyanidioschyzon",
+                                          "rank": "genus",
+                                          "children": [
+                                            {
+                                              "id": "934",
+                                              "name": "Cyanidioschyzon merolae",
+                                              "rank": "species",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "935",
+                                      "name": "Galdieriales",
+                                      "rank": "order",
+                                      "children": [
+                                        {
+                                          "id": "936",
+                                          "name": "Galdieria",
+                                          "rank": "genus",
+                                          "children": [
+                                            {
+                                              "id": "939",
+                                              "name": "Galdieria sulphuraria",
+                                              "rank": "species",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "944",
+                              "name": "Eurhodophytina",
+                              "rank": "undefined",
+                              "children": [
+                                {
+                                  "id": "945",
+                                  "name": "Bangiophyceae",
+                                  "rank": "class",
+                                  "children": [
+                                    {
+                                      "id": "946",
+                                      "name": "Bangiales",
+                                      "rank": "order",
+                                      "children": [
+                                        {
+                                          "id": "947",
+                                          "name": "Bangiaceae",
+                                          "rank": "family",
+                                          "children": [
+                                            {
+                                              "id": "1001",
+                                              "name": "Porphyra",
+                                              "rank": "genus",
+                                              "children": [
+                                                {
+                                                  "id": "1050",
+                                                  "name": "Porphyra umbilicalis",
+                                                  "rank": "species",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "9339",
+                      "name": "Chloroplastida",
+                      "rank": "undefined",
+                      "children": [
+                        {
+                          "id": "9340",
+                          "name": "Chlorophyta",
+                          "rank": "undefined",
+                          "children": [
+                            {
+                              "id": "9341",
+                              "name": "'core chlorophytes'",
+                              "rank": "undefined",
+                              "children": [
+                                {
+                                  "id": "9394",
+                                  "name": "Chlorophyceae",
+                                  "rank": "class",
+                                  "children": [
+                                    {
+                                      "id": "9713",
+                                      "name": "Chlamydomonadales",
+                                      "rank": "order",
+                                      "children": [
+                                        {
+                                          "id": "9787",
+                                          "name": "Chlamydomonadaceae",
+                                          "rank": "family",
+                                          "children": [
+                                            {
+                                              "id": "9894",
+                                              "name": "Chlamydomonas",
+                                              "rank": "genus",
+                                              "children": [
+                                                {
+                                                  "id": "10327",
+                                                  "name": "Chlamydomonas reinhardtii",
+                                                  "rank": "species",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "13982",
+                                  "name": "Trebouxiophyceae",
+                                  "rank": "class",
+                                  "children": [
+                                    {
+                                      "id": "13986",
+                                      "name": "Chlorellales",
+                                      "rank": "order",
+                                      "children": [
+                                        {
+                                          "id": "13989",
+                                          "name": "Chlorellaceae",
+                                          "rank": "family",
+                                          "children": [
+                                            {
+                                              "id": "14029",
+                                              "name": "Chlorella",
+                                              "rank": "genus",
+                                              "children": [
+                                                {
+                                                  "id": "14056",
+                                                  "name": "Chlorella variabilis",
+                                                  "rank": "species",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": "14242",
+                                              "name": "Prototheca",
+                                              "rank": "genus",
+                                              "children": [
+                                                {
+                                                  "id": "14263",
+                                                  "name": "Prototheca wickerhamii",
+                                                  "rank": "species",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "id": "14265",
+                                                  "name": "Prototheca zopfii",
+                                                  "rank": "species",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "17257",
+                              "name": "Pseudoscourfieldiales",
+                              "rank": "order",
+                              "children": [
+                                {
+                                  "id": "17258",
+                                  "name": "Pycnococcaceae",
+                                  "rank": "family",
+                                  "children": [
+                                    {
+                                      "id": "17261",
+                                      "name": "Pycnococcus",
+                                      "rank": "genus",
+                                      "children": [
+                                        {
+                                          "id": "17263",
+                                          "name": "Pycnococcus provasolii",
+                                          "rank": "species",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "17216",
+                              "name": "Nephroselmidophyceae",
+                              "rank": "class",
+                              "children": [
+                                {
+                                  "id": "17217",
+                                  "name": "Nephroselmidales",
+                                  "rank": "order",
+                                  "children": [
+                                    {
+                                      "id": "17232",
+                                      "name": "Nephroselmis",
+                                      "rank": "genus",
+                                      "children": [
+                                        {
+                                          "id": "17241",
+                                          "name": "Nephroselmis olivacea",
+                                          "rank": "species",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "17433",
+                          "name": "Streptophyta",
+                          "rank": "undefined",
+                          "children": [
+                            {
+                              "id": "17470",
+                              "name": "'core streptophytes'",
+                              "rank": "undefined",
+                              "children": [
+                                {
+                                  "id": "17536",
+                                  "name": "Phragmoplastophyta",
+                                  "rank": "undefined",
+                                  "children": [
+                                    {
+                                      "id": "17537",
+                                      "name": "Charophyceae",
+                                      "rank": "class",
+                                      "children": [
+                                        {
+                                          "id": "17538",
+                                          "name": "Charales",
+                                          "rank": "order",
+                                          "children": [
+                                            {
+                                              "id": "17539",
+                                              "name": "Characeae",
+                                              "rank": "family",
+                                              "children": [
+                                                {
+                                                  "id": "17544",
+                                                  "name": "Chara",
+                                                  "rank": "genus",
+                                                  "children": [
+                                                    {
+                                                      "id": "17562",
+                                                      "name": "Chara braunii",
+                                                      "rank": "species",
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "id": "17703",
+                                                      "name": "Chara vulgaris",
+                                                      "rank": "species",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "17434",
+                              "name": "'CM clade'",
+                              "rank": "undefined",
+                              "children": [
+                                {
+                                  "id": "17442",
+                                  "name": "Mesostigmatophyceae",
+                                  "rank": "class",
+                                  "children": [
+                                    {
+                                      "id": "17443",
+                                      "name": "Mesostigma",
+                                      "rank": "genus",
+                                      "children": [
+                                        {
+                                          "id": "17444",
+                                          "name": "Mesostigma viride",
+                                          "rank": "species",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "17435",
+                                  "name": "Chlorokybophyceae",
+                                  "rank": "class",
+                                  "children": [
+                                    {
+                                      "id": "17436",
+                                      "name": "Chlorokybus",
+                                      "rank": "genus",
+                                      "children": [
+                                        {
+                                          "id": "17437",
+                                          "name": "Chlorokybus atmophyticus",
+                                          "rank": "species",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "23324",
+                  "name": "Pancryptista",
+                  "rank": "undefined",
+                  "children": [
+                    {
+                      "id": "23326",
+                      "name": "Cryptista",
+                      "rank": "undefined",
+                      "children": [
+                        {
+                          "id": "23327",
+                          "name": "'CK clade'",
+                          "rank": "undefined",
+                          "children": [
+                            {
+                              "id": "23328",
+                              "name": "Cryptophyceae",
+                              "rank": "undefined",
+                              "children": [
+                                {
+                                  "id": "23391",
+                                  "name": "Cryptomonadales",
+                                  "rank": "order",
+                                  "children": [
+                                    {
+                                      "id": "23413",
+                                      "name": "Cryptomonadaceae",
+                                      "rank": "family",
+                                      "children": [
+                                        {
+                                          "id": "23438",
+                                          "name": "Cryptomonas",
+                                          "rank": "genus",
+                                          "children": [
+                                            {
+                                              "id": "23454",
+                                              "name": "Cryptomonas curvata",
+                                              "rank": "species",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "23341",
+                                  "name": "'goniomonads'",
+                                  "rank": "undefined",
+                                  "children": [
+                                    {
+                                      "id": "23363",
+                                      "name": "'Gavonlea lineage'",
+                                      "rank": "genus",
+                                      "children": [
+                                        {
+                                          "id": "23364",
+                                          "name": "Goniomonas avonlea",
+                                          "rank": "species",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "23697",
+                              "name": "Kathablepharidacea",
+                              "rank": "undefined",
+                              "children": [
+                                {
+                                  "id": "23698",
+                                  "name": "'core kathablepharids'",
+                                  "rank": "undefined",
+                                  "children": [
+                                    {
+                                      "id": "23718",
+                                      "name": "Leucocryptos",
+                                      "rank": "genus",
+                                      "children": [
+                                        {
+                                          "id": "23719",
+                                          "name": "Leucocryptos marina",
+                                          "rank": "species",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "23728",
+                          "name": "Palpitomonas",
+                          "rank": "genus",
+                          "children": [
+                            {
+                              "id": "23729",
+                              "name": "Palpitomonas bilix",
+                              "rank": "species",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "22563",
+                  "name": "Haptista",
+                  "rank": "undefined",
+                  "children": [
+                    {
+                      "id": "22597",
+                      "name": "Haptophyta",
+                      "rank": "undefined",
+                      "children": [
+                        {
+                          "id": "22705",
+                          "name": "Prymnesiophyceae",
+                          "rank": "class",
+                          "children": [
+                            {
+                              "id": "23198",
+                              "name": "Prymnesiales",
+                              "rank": "order",
+                              "children": [
+                                {
+                                  "id": "23204",
+                                  "name": "Chrysochromulinaceae",
+                                  "rank": "family",
+                                  "children": [
+                                    {
+                                      "id": "23205",
+                                      "name": "Chrysochromulina",
+                                      "rank": "genus",
+                                      "children": [
+                                        {
+                                          "id": "23248",
+                                          "name": "Chrysochromulina tobinii",
+                                          "rank": "species",
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "23234",
+                                          "name": "Chrysochromulina parva",
+                                          "rank": "species",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "837",
+                  "name": "'HM clade'",
+                  "rank": "undefined",
+                  "children": [
+                    {
+                      "id": "845",
+                      "name": "Hemimastigophora",
+                      "rank": "phylum",
+                      "children": [
+                        {
+                          "id": "850",
+                          "name": "Spironemidae",
+                          "rank": "family",
+                          "children": [
+                            {
+                              "id": "851",
+                              "name": "Hemimastix",
+                              "rank": "genus",
+                              "children": [
+                                {
+                                  "id": "853",
+                                  "name": "Hemimastix kukwesjijk",
+                                  "rank": "species",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "23763",
+                  "name": "Sar",
+                  "rank": "undefined",
+                  "children": [
+                    {
+                      "id": "23764",
+                      "name": "Alveolata",
+                      "rank": "undefined",
+                      "children": [
+                        {
+                          "id": "25692",
+                          "name": "Myzozoa",
+                          "rank": "undefined",
+                          "children": [
+                            {
+                              "id": "25693",
+                              "name": "'AC clade'",
+                              "rank": "undefined",
+                              "children": [
+                                {
+                                  "id": "25835",
+                                  "name": "Colpodellida",
+                                  "rank": "order",
+                                  "children": [
+                                    {
+                                      "id": "25843",
+                                      "name": "Chromeraceae",
+                                      "rank": "family",
+                                      "children": [
+                                        {
+                                          "id": "25846",
+                                          "name": "Chromera",
+                                          "rank": "genus",
+                                          "children": [
+                                            {
+                                              "id": "25847",
+                                              "name": "Chromera velia",
+                                              "rank": "species",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "25876",
+                                      "name": "Vitrellaceae",
+                                      "rank": "family",
+                                      "children": [
+                                        {
+                                          "id": "25880",
+                                          "name": "Vitrella",
+                                          "rank": "genus",
+                                          "children": [
+                                            {
+                                              "id": "25881",
+                                              "name": "Vitrella brassicaformis",
+                                              "rank": "species",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "25900",
+                              "name": "'DP clade'",
+                              "rank": "undefined",
+                              "children": [
+                                {
+                                  "id": "25901",
+                                  "name": "Dinoflagellata",
+                                  "rank": "undefined",
+                                  "children": [
+                                    {
+                                      "id": "25902",
+                                      "name": "'core dinos'",
+                                      "rank": "undefined",
+                                      "children": [
+                                        {
+                                          "id": "25905",
+                                          "name": "Dinophyceae",
+                                          "rank": "undefined",
+                                          "children": [
+                                            {
+                                              "id": "26344",
+                                              "name": "'thecates'",
+                                              "rank": "undefined",
+                                              "children": [
+                                                {
+                                                  "id": "28573",
+                                                  "name": "Suessiales",
+                                                  "rank": "order",
+                                                  "children": [
+                                                    {
+                                                      "id": "28599",
+                                                      "name": "Suessiaceae",
+                                                      "rank": "family",
+                                                      "children": [
+                                                        {
+                                                          "id": "28610",
+                                                          "name": "'symbiodiniids'",
+                                                          "rank": "undefined",
+                                                          "children": [
+                                                            {
+                                                              "id": "28659",
+                                                              "name": "Symbiodinium",
+                                                              "rank": "genus",
+                                                              "children": [
+                                                                {
+                                                                  "id": "28662",
+                                                                  "name": "Symbiodinium natans",
+                                                                  "rank": "species",
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "23767",
+                          "name": "Ciliophora",
+                          "rank": "undefined",
+                          "children": [
+                            {
+                              "id": "23768",
+                              "name": "Intramacronucleata",
+                              "rank": "undefined",
+                              "children": [
+                                {
+                                  "id": "24443",
+                                  "name": "'SAL'",
+                                  "rank": "undefined",
+                                  "children": [
+                                    {
+                                      "id": "24444",
+                                      "name": "'ACM clade'",
+                                      "rank": "undefined",
+                                      "children": [
+                                        {
+                                          "id": "24445",
+                                          "name": "Armophorea",
+                                          "rank": "class",
+                                          "children": [
+                                            {
+                                              "id": "24446",
+                                              "name": "'MAC clade'",
+                                              "rank": "undefined",
+                                              "children": [
+                                                {
+                                                  "id": "24447",
+                                                  "name": "'HAC clade'",
+                                                  "rank": "undefined",
+                                                  "children": [
+                                                    {
+                                                      "id": "24450",
+                                                      "name": "'LAC clade'",
+                                                      "rank": "undefined",
+                                                      "children": [
+                                                        {
+                                                          "id": "24481",
+                                                          "name": "Clevelandellida",
+                                                          "rank": "order",
+                                                          "children": [
+                                                            {
+                                                              "id": "24482",
+                                                              "name": "'core Clev'",
+                                                              "rank": "undefined",
+                                                              "children": [
+                                                                {
+                                                                  "id": "24487",
+                                                                  "name": "'Novalis1 lineage'",
+                                                                  "rank": "genus",
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "24488",
+                                                                      "name": "Nyctotherus ovalis",
+                                                                      "rank": "species",
+                                                                      "children": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "29475",
+                      "name": "Rhizaria",
+                      "rank": "undefined",
+                      "children": [
+                        {
+                          "id": "29493",
+                          "name": "Cercozoa",
+                          "rank": "undefined",
+                          "children": [
+                            {
+                              "id": "29705",
+                              "name": "Chlorarachnea",
+                              "rank": "class",
+                              "children": [
+                                {
+                                  "id": "29706",
+                                  "name": "'core chlorarachneans'",
+                                  "rank": "undefined",
+                                  "children": [
+                                    {
+                                      "id": "29707",
+                                      "name": "Chlorarachniophyceae",
+                                      "rank": "undefined",
+                                      "children": [
+                                        {
+                                          "id": "29725",
+                                          "name": "Bigelowiella",
+                                          "rank": "genus",
+                                          "children": [
+                                            {
+                                              "id": "29733",
+                                              "name": "Bigelowiella natans",
+                                              "rank": "species",
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "30095",
+                      "name": "Stramenopiles",
+                      "rank": "undefined",
+                      "children": [
+                        {
+                          "id": "30096",
+                          "name": "'GOS clade'",
+                          "rank": "undefined",
+                          "children": [
+                            {
+                              "id": "30097",
+                              "name": "Gyrista",
+                              "rank": "undefined",
+                              "children": [
+                                {
+                                  "id": "30138",
+                                  "name": "Ochrophyta",
+                                  "rank": "undefined",
+                                  "children": [
+                                    {
+                                      "id": "30139",
+                                      "name": "'BD clade'",
+                                      "rank": "undefined",
+                                      "children": [
+                                        {
+                                          "id": "30171",
+                                          "name": "Diatomeae",
+                                          "rank": "undefined",
+                                          "children": [
+                                            {
+                                              "id": "30179",
+                                              "name": "Bacillariophytina",
+                                              "rank": "undefined",
+                                              "children": [
+                                                {
+                                                  "id": "45104",
+                                                  "name": "Mediophyceae",
+                                                  "rank": "class",
+                                                  "children": [
+                                                    {
+                                                      "id": "46034",
+                                                      "name": "Thalassiosirophycidae",
+                                                      "rank": "subclass",
+                                                      "children": [
+                                                        {
+                                                          "id": "46329",
+                                                          "name": "Thalassiosirales",
+                                                          "rank": "order",
+                                                          "children": [
+                                                            {
+                                                              "id": "46354",
+                                                              "name": "Thalassiosiraceae",
+                                                              "rank": "family",
+                                                              "children": [
+                                                                {
+                                                                  "id": "46452",
+                                                                  "name": "Thalassiosira",
+                                                                  "rank": "genus",
+                                                                  "children": [
+                                                                    {
+                                                                      "id": "46557",
+                                                                      "name": "Thalassiosira pseudonana",
+                                                                      "rank": "species",
+                                                                      "children": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "53318",
+                                      "name": "Raphidophyceae",
+                                      "rank": "class",
+                                      "children": [
+                                        {
+                                          "id": "53321",
+                                          "name": "Chattonellales",
+                                          "rank": "order",
+                                          "children": [
+                                            {
+                                              "id": "53322",
+                                              "name": "Chattonellaceae",
+                                              "rank": "family",
+                                              "children": [
+                                                {
+                                                  "id": "53323",
+                                                  "name": "Chattonella",
+                                                  "rank": "genus",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "49534",
+                                      "name": "'PX clade'",
+                                      "rank": "undefined",
+                                      "children": [
+                                        {
+                                          "id": "49548",
+                                          "name": "Phaeophyceae",
+                                          "rank": "class",
+                                          "children": [
+                                            {
+                                              "id": "50087",
+                                              "name": "Fucophycidae",
+                                              "rank": "subclass",
+                                              "children": [
+                                                {
+                                                  "id": "51047",
+                                                  "name": "Fucales",
+                                                  "rank": "order",
+                                                  "children": [
+                                                    {
+                                                      "id": "51092",
+                                                      "name": "Sargassaceae",
+                                                      "rank": "family",
+                                                      "children": [
+                                                        {
+                                                          "id": "51240",
+                                                          "name": "Sargassum",
+                                                          "rank": "genus",
+                                                          "children": [
+                                                            {
+                                                              "id": "51346",
+                                                              "name": "Sargassum fluitans",
+                                                              "rank": "species",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "53517",
+                              "name": "Opalozoa",
+                              "rank": "undefined",
+                              "children": [
+                                {
+                                  "id": "53598",
+                                  "name": "Opalinata",
+                                  "rank": "undefined",
+                                  "children": [
+                                    {
+                                      "id": "53599",
+                                      "name": "Blastocystis",
+                                      "rank": "genus",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "53711",
+                  "name": "Telonemia",
+                  "rank": "undefined",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "4",
+              "name": "'CRuMs'",
+              "rank": "undefined",
+              "children": [
+                {
+                  "id": "5",
+                  "name": "'CR clade'",
+                  "rank": "undefined",
+                  "children": [
+                    {
+                      "id": "6",
+                      "name": "Collodictyonidae",
+                      "rank": "family",
+                      "children": [
+                        {
+                          "id": "22",
+                          "name": "Diphylleia",
+                          "rank": "genus",
+                          "children": [
+                            {
+                              "id": "23",
+                              "name": "Diphylleia rotans",
+                              "rank": "species",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "28",
+                      "name": "Rigifilida",
+                      "rank": "order",
+                      "children": [
+                        {
+                          "id": "32",
+                          "name": "Rigifila",
+                          "rank": "genus",
+                          "children": [
+                            {
+                              "id": "33",
+                              "name": "Rigifila ramosa",
+                              "rank": "species",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "53740",
+              "name": "Discoba",
+              "rank": "undefined",
+              "children": [
+                {
+                  "id": "53742",
+                  "name": "Euglenozoa",
+                  "rank": "undefined",
+                  "children": [
+                    {
+                      "id": "53758",
+                      "name": "Euglenida",
+                      "rank": "undefined",
+                      "children": [
+                        {
+                          "id": "53759",
+                          "name": "'core euglenids'",
+                          "rank": "undefined",
+                          "children": [
+                            {
+                              "id": "53772",
+                              "name": "Olkaspira",
+                              "rank": "undefined",
+                              "children": [
+                                {
+                                  "id": "53775",
+                                  "name": "Spirocuta",
+                                  "rank": "undefined",
+                                  "children": [
+                                    {
+                                      "id": "53805",
+                                      "name": "Euglenea",
+                                      "rank": "undefined",
+                                      "children": [
+                                        {
+                                          "id": "53808",
+                                          "name": "Euglenophycidae",
+                                          "rank": "undefined",
+                                          "children": [
+                                            {
+                                              "id": "53809",
+                                              "name": "Euglenales",
+                                              "rank": "order",
+                                              "children": [
+                                                {
+                                                  "id": "53810",
+                                                  "name": "Euglenaceae",
+                                                  "rank": "family",
+                                                  "children": [
+                                                    {
+                                                      "id": "53853",
+                                                      "name": "Euglena",
+                                                      "rank": "genus",
+                                                      "children": [
+                                                        {
+                                                          "id": "53912",
+                                                          "name": "Euglena gracilis",
+                                                          "rank": "species",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "id": "53935",
+                                                          "name": "Euglena longa",
+                                                          "rank": "species",
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "55060",
+                  "name": "Jakobida",
+                  "rank": "order",
+                  "children": [
+                    {
+                      "id": "55061",
+                      "name": "Andalucina",
+                      "rank": "suborder",
+                      "children": [
+                        {
+                          "id": "55062",
+                          "name": "Andaluciidae",
+                          "rank": "family",
+                          "children": [
+                            {
+                              "id": "55064",
+                              "name": "Andalucia",
+                              "rank": "genus",
+                              "children": [
+                                {
+                                  "id": "55067",
+                                  "name": "Andalucia godoyi",
+                                  "rank": "species",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "55102",
+                      "name": "Histionina",
+                      "rank": "suborder",
+                      "children": [
+                        {
+                          "id": "55106",
+                          "name": "Histionidae",
+                          "rank": "family",
+                          "children": [
+                            {
+                              "id": "55111",
+                              "name": "Reclinomonas",
+                              "rank": "genus",
+                              "children": [
+                                {
+                                  "id": "55112",
+                                  "name": "Reclinomonas americana",
+                                  "rank": "species",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": "55107",
+                              "name": "Histiona",
+                              "rank": "genus",
+                              "children": [
+                                {
+                                  "id": "55108",
+                                  "name": "Histiona aroides",
+                                  "rank": "species",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "55125",
+                          "name": "Jakoba",
+                          "rank": "genus",
+                          "children": [
+                            {
+                              "id": "55128",
+                              "name": "Jakoba libera",
+                              "rank": "species",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "55149",
+                  "name": "Tsukubamonas",
+                  "rank": "genus",
+                  "children": [
+                    {
+                      "id": "55150",
+                      "name": "Tsukubamonas globosa",
+                      "rank": "species",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "55152",
+              "name": "Malawimonadida",
+              "rank": "order",
+              "children": [
+                {
+                  "id": "55158",
+                  "name": "Malawimonadidae",
+                  "rank": "family",
+                  "children": [
+                    {
+                      "id": "55159",
+                      "name": "Gefionella",
+                      "rank": "genus",
+                      "children": [
+                        {
+                          "id": "55160",
+                          "name": "Gefionella okellyi",
+                          "rank": "species",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "55162",
+                      "name": "Malawimonas",
+                      "rank": "genus",
+                      "children": [
+                        {
+                          "id": "55165",
+                          "name": "Malawimonas jakobiformis",
+                          "rank": "species",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "47",
+              "name": "Amorphea",
+              "rank": "undefined",
+              "children": [
+                {
+                  "id": "365",
+                  "name": "Obazoa",
+                  "rank": "undefined",
+                  "children": [
+                    {
+                      "id": "395",
+                      "name": "Opisthokonta",
+                      "rank": "undefined",
+                      "children": [
+                        {
+                          "id": "660",
+                          "name": "Nucletmycea",
+                          "rank": "undefined",
+                          "children": [
+                            {
+                              "id": "661",
+                              "name": "Fungi",
+                              "rank": "undefined",
+                              "children": [
+                                {
+                                  "id": "736",
+                                  "name": "'cryptomycota'",
+                                  "rank": "undefined",
+                                  "children": [
+                                    {
+                                      "id": "745",
+                                      "name": "Rozellida",
+                                      "rank": "order",
+                                      "children": [
+                                        {
+                                          "id": "761",
+                                          "name": "Rozella",
+                                          "rank": "genus",
+                                          "children": [
+                                            {
+                                              "id": "768",
+                                              "name": "'Rallo group'",
+                                              "rank": "undefined",
+                                              "children": [
+                                                {
+                                                  "id": "771",
+                                                  "name": "Rozella allomycis",
+                                                  "rank": "species",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "788",
+                              "name": "Rotosphaerida",
+                              "rank": "order",
+                              "children": [
+                                {
+                                  "id": "820",
+                                  "name": "Fonticula",
+                                  "rank": "genus",
+                                  "children": [
+                                    {
+                                      "id": "821",
+                                      "name": "Fonticula alba",
+                                      "rank": "species",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "396",
+                          "name": "Holozoa",
+                          "rank": "undefined",
+                          "children": [
+                            {
+                              "id": "553",
+                              "name": "Filasterea",
+                              "rank": "class",
+                              "children": [
+                                {
+                                  "id": "554",
+                                  "name": "'capsasporids'",
+                                  "rank": "undefined",
+                                  "children": [
+                                    {
+                                      "id": "556",
+                                      "name": "Capsaspora",
+                                      "rank": "genus",
+                                      "children": [
+                                        {
+                                          "id": "557",
+                                          "name": "Capsaspora owczarzaki",
+                                          "rank": "species",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "577",
+                              "name": "Ichthyosporea",
+                              "rank": "class",
+                              "children": [
+                                {
+                                  "id": "596",
+                                  "name": "Ichthyophonida",
+                                  "rank": "order",
+                                  "children": [
+                                    {
+                                      "id": "637",
+                                      "name": "'CSA clade'",
+                                      "rank": "undefined",
+                                      "children": [
+                                        {
+                                          "id": "644",
+                                          "name": "'sphaeroformids'",
+                                          "rank": "undefined",
+                                          "children": [
+                                            {
+                                              "id": "645",
+                                              "name": "'CS group'",
+                                              "rank": "undefined",
+                                              "children": [
+                                                {
+                                                  "id": "646",
+                                                  "name": "Creolimax",
+                                                  "rank": "genus",
+                                                  "children": [
+                                                    {
+                                                      "id": "647",
+                                                      "name": "Creolimax fragrantissima",
+                                                      "rank": "species",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": "648",
+                                                  "name": "Sphaeroforma",
+                                                  "rank": "genus",
+                                                  "children": [
+                                                    {
+                                                      "id": "649",
+                                                      "name": "Sphaeroforma arctica",
+                                                      "rank": "species",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
