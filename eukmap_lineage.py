@@ -386,32 +386,35 @@ _UNIVERSAL_NAMES = {"", "life", "biota", "cellular organisms", "eukaryota",
 def bridge_ncbi(client: EukMap, rec: dict) -> tuple[dict | None, str | None]:
     """Bridge one resolved NCBI record to a EukMap taxon id, homonym-safe.
 
-    Walks the NCBI lineage (organism first, then ancestors) and, for each name
-    that exists in EukMap, accepts it only if the EukMap candidate's own ancestry
-    shares an *informative* (non-universal) name with the NCBI lineage. This
-    rejects wrong-kingdom homonyms (e.g. NCBI animal 'Vertebrata' vs EukMap's
-    red-algal genus 'Vertebrata'). The organism-level exact hit is accepted even
-    without corroboration but flagged, since an exact species hit is rarely wrong.
+    Matches ONLY the organism's own scientific name in EukMap -- there is no
+    ancestor fallback, so a taxid whose exact organism is absent from EukMap is
+    reported unmatched. When several EukMap taxa share the name (homonyms, e.g.
+    NCBI animal 'Vertebrata' vs EukMap's red-algal genus 'Vertebrata'), the
+    candidate whose EukMap ancestry shares an informative (non-universal) name
+    with the NCBI lineage is chosen. A single unambiguous hit is accepted and
+    flagged corroborated=False.
     """
-    ncbi_nodes = rec.get("ncbi_lineage") or []
-    ncbi_name_set = {(n["name"] or "").strip().lower() for n in ncbi_nodes}
-    ncbi_name_set |= {(rec.get("name") or "").strip().lower()}
+    key = (rec.get("name") or "").strip().lower()
+    candidates = client.id_by_name.get(key) or []
+    if not candidates:
+        return None, None
 
-    for idx, node in enumerate(ncbi_nodes):
-        key = (node["name"] or "").strip().lower()
-        candidates = client.id_by_name.get(key) or []
-        for cand in candidates:
-            corrob = (client.ancestor_names(cand) & ncbi_name_set) \
-                - _UNIVERSAL_NAMES - {key}
-            if corrob:
-                return ({"ncbi_name": node["name"], "ncbi_rank": node["rank"],
-                         "via": "organism" if idx == 0 else "lineage-ancestor",
-                         "corroborated": True,
-                         "corroborated_by": sorted(corrob)[:5]}, cand)
-        # organism exact hit with no corroboration: accept (flagged) if unambiguous
-        if idx == 0 and len(candidates) == 1:
-            return ({"ncbi_name": node["name"], "ncbi_rank": node["rank"],
-                     "via": "organism", "corroborated": False}, candidates[0])
+    ncbi_name_set = {(n["name"] or "").strip().lower()
+                     for n in (rec.get("ncbi_lineage") or [])}
+    ncbi_name_set.add(key)
+
+    for cand in candidates:
+        corrob = (client.ancestor_names(cand) & ncbi_name_set) \
+            - _UNIVERSAL_NAMES - {key}
+        if corrob:
+            return ({"ncbi_name": rec["name"], "ncbi_rank": rec.get("rank"),
+                     "via": "organism", "corroborated": True,
+                     "corroborated_by": sorted(corrob)[:5]}, cand)
+
+    if len(candidates) == 1:
+        return ({"ncbi_name": rec["name"], "ncbi_rank": rec.get("rank"),
+                 "via": "organism", "corroborated": False}, candidates[0])
+    # ambiguous homonyms, none corroborated -> refuse to guess
     return None, None
 
 
@@ -435,8 +438,8 @@ def resolve_ncbi(client: EukMap, taxids: list[str], from_domain: bool,
         bridge, eukmap_id = bridge_ncbi(client, rec)
         if not eukmap_id:
             unmatched.append({"query": str(taxid), "ncbi_name": rec["name"],
-                              "reason": "no corroborated EukMap match for organism "
-                                        "or any NCBI ancestor"})
+                              "reason": "organism not present in EukMap "
+                                        "(no direct species/name match)"})
             continue
 
         results.append({

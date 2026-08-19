@@ -50,16 +50,16 @@ only bridge between the two taxonomies is the scientific **name**. So this mode:
 
 1. runs `ncbi-taxonomist resolve` to turn each taxid into its authoritative NCBI
    **name + full NCBI lineage**;
-2. tries to match the organism's name in EukMap; if EukMap doesn't have that exact
-   organism (common — it's protist-focused), it **walks up the NCBI lineage** and
-   takes the nearest ancestor EukMap does know;
-3. **corroborates** every match against the NCBI lineage — a candidate is accepted
-   only if its EukMap ancestry shares an informative (non-universal) name with the
-   NCBI lineage. This rejects wrong-kingdom **homonyms** (e.g. NCBI's animal
-   *Vertebrata* vs EukMap's red-algal genus *Vertebrata* — EukMap has both).
+2. matches **only the organism's own name** in EukMap. If EukMap doesn't have that
+   exact organism (common — it's protist-focused), the taxid is reported
+   **unmatched**; there is no ancestor fallback;
+3. when the name is a **homonym** (several EukMap taxa share it — e.g. NCBI's
+   animal *Vertebrata* vs EukMap's red-algal genus *Vertebrata*), it picks the
+   candidate whose EukMap ancestry shares an informative name with the NCBI
+   lineage, and refuses to guess if none is corroborated.
 
-Each NCBI result records a `bridge` block: which NCBI name/rank the match happened
-at, whether it was the organism itself or an ancestor, and what corroborated it.
+Each matched NCBI result records a `bridge` block (the NCBI name/rank matched and
+what corroborated it); the NCBI lineage is used only to disambiguate homonyms.
 
 ### JSON shape
 
