@@ -53,8 +53,10 @@ from __future__ import annotations
 
 import argparse
 import concurrent.futures
+import gzip
 import json
 import os
+import subprocess
 import sys
 import time
 import urllib.error
@@ -71,6 +73,11 @@ DEFAULT_DOMAIN_NAME = "Eukaryota"  # where --from-domain starts the lineage
 
 CACHE_DIR = os.path.join(os.path.expanduser("~"), ".cache", "eukmap")
 TREE_TTL_SECONDS = 24 * 3600     # re-download the full tree at most once a day
+
+# A tree snapshot shipped with the repo, used offline when no fresh cache exists
+# (built with: curl .../taxa/1/depth/50 | gzip -9 > data/unieuk_tree.json.gz).
+BUNDLED_TREE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                            "data", "unieuk_tree.json.gz")
 
 # Accept headers the API demands (discovered empirically against the live API).
 ACCEPT_SEARCH = "*/*"
@@ -97,6 +104,53 @@ def _http_get(url: str, accept: str, timeout: int = 60) -> bytes:
             if attempt < HTTP_RETRIES - 1:
                 time.sleep(HTTP_BACKOFF * (2 ** attempt))
     raise RuntimeError(f"GET failed after {HTTP_RETRIES} tries: {url}\n  {last}")
+
+
+# --------------------------------------------------------------------------- #
+# NCBI resolver (via the `ncbi-taxonomist` CLI)
+# --------------------------------------------------------------------------- #
+# EukMap has NO NCBI-taxid crosswalk in its public data, so an NCBI taxid can only
+# reach EukMap through a scientific NAME. `ncbi-taxonomist resolve` turns a taxid
+# into its authoritative NCBI name AND full NCBI lineage; we use the name to match
+# EukMap and, if the exact organism is absent, walk the NCBI lineage upward to the
+# nearest ancestor that EukMap does know.
+def resolve_ncbi_taxids(taxids: list[str], email: str | None = None,
+                        quiet: bool = False) -> dict[str, dict]:
+    """taxid -> {name, ncbi_lineage:[{taxid,name,rank}] most-specific-first}.
+
+    Requires the `ncbi-taxonomist` package (pip install ncbi-taxonomist) and
+    network access to NCBI Entrez.
+    """
+    taxids = [str(t) for t in taxids]
+    if not taxids:
+        return {}
+    cmd = ["ncbi-taxonomist", "resolve", "-r", "-t", *taxids]
+    if email:
+        cmd += ["-e", email]
+    if not quiet:
+        print(f"[ncbi] resolving {len(taxids)} taxid(s) via ncbi-taxonomist ...",
+              file=sys.stderr)
+    try:
+        proc = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+    except FileNotFoundError:
+        raise RuntimeError("ncbi-taxonomist not found; run: pip install ncbi-taxonomist")
+    if proc.returncode != 0:
+        raise RuntimeError(f"ncbi-taxonomist failed: {proc.stderr.strip()[:400]}")
+
+    out: dict[str, dict] = {}
+    for line in proc.stdout.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        rec = json.loads(line)
+        q = str(rec.get("query"))
+        taxon = rec.get("taxon") or {}
+        lineage = [{"taxid": str(n.get("taxid")), "name": n.get("name"),
+                    "rank": n.get("rank")}
+                   for n in (rec.get("lineage") or [])]
+        out[q] = {"name": taxon.get("name"), "rank": taxon.get("rank"),
+                  "ncbi_lineage": lineage}
+    return out
 
 
 # --------------------------------------------------------------------------- #
@@ -138,16 +192,28 @@ class EukMap:
     def _tree_cache_path(self) -> str:
         return os.path.join(self.cache_dir, f"tree_{self.taxonomy}.json")
 
+    @staticmethod
+    def _read_maybe_gzip(path: str) -> bytes:
+        with open(path, "rb") as fh:
+            data = fh.read()
+        return gzip.decompress(data) if path.endswith(".gz") else data
+
     def load_tree(self, refresh: bool = False, quiet: bool = False) -> None:
-        """Download (or reuse cached) full tree and build the id/name/parent indexes."""
+        """Load the full tree and build id/name/parent indexes.
+
+        Source preference: fresh on-disk cache -> bundled repo snapshot -> live API.
+        """
         path = self._tree_cache_path()
         fresh = (not refresh and os.path.exists(path)
                  and (time.time() - os.path.getmtime(path)) < TREE_TTL_SECONDS)
         if fresh:
             if not quiet:
                 print(f"[eukmap] using cached tree {path}", file=sys.stderr)
-            with open(path, "rb") as fh:
-                raw = fh.read()
+            raw = self._read_maybe_gzip(path)
+        elif not refresh and os.path.exists(BUNDLED_TREE):
+            if not quiet:
+                print(f"[eukmap] using bundled tree snapshot {BUNDLED_TREE}", file=sys.stderr)
+            raw = self._read_maybe_gzip(BUNDLED_TREE)
         else:
             url = (f"{self.base}/public/taxonomies/{self.taxonomy}"
                    f"/taxa/{ROOT_ID}/depth/50")
@@ -270,6 +336,11 @@ class EukMap:
         chain.reverse()
         return chain
 
+    def ancestor_names(self, taxon_id: str) -> set[str]:
+        """Lowercased names of a taxon and all its EukMap ancestors."""
+        return {(self.name_of.get(i) or "").strip().lower()
+                for i in self.lineage_ids(taxon_id)}
+
     def lineage(self, taxon_id: str, from_domain: bool = False) -> list[dict]:
         """Full lineage as [{id, name, rank}], root-first."""
         ids = self.lineage_ids(taxon_id)
@@ -307,6 +378,79 @@ def resolve_names(client: EukMap, names: list[str], from_domain: bool) -> dict:
             "merged_tree": merged_tree(results)}
 
 
+# Names so universal they don't corroborate a region (shared by everything).
+_UNIVERSAL_NAMES = {"", "life", "biota", "cellular organisms", "eukaryota",
+                    "root", "domain"}
+
+
+def bridge_ncbi(client: EukMap, rec: dict) -> tuple[dict | None, str | None]:
+    """Bridge one resolved NCBI record to a EukMap taxon id, homonym-safe.
+
+    Walks the NCBI lineage (organism first, then ancestors) and, for each name
+    that exists in EukMap, accepts it only if the EukMap candidate's own ancestry
+    shares an *informative* (non-universal) name with the NCBI lineage. This
+    rejects wrong-kingdom homonyms (e.g. NCBI animal 'Vertebrata' vs EukMap's
+    red-algal genus 'Vertebrata'). The organism-level exact hit is accepted even
+    without corroboration but flagged, since an exact species hit is rarely wrong.
+    """
+    ncbi_nodes = rec.get("ncbi_lineage") or []
+    ncbi_name_set = {(n["name"] or "").strip().lower() for n in ncbi_nodes}
+    ncbi_name_set |= {(rec.get("name") or "").strip().lower()}
+
+    for idx, node in enumerate(ncbi_nodes):
+        key = (node["name"] or "").strip().lower()
+        candidates = client.id_by_name.get(key) or []
+        for cand in candidates:
+            corrob = (client.ancestor_names(cand) & ncbi_name_set) \
+                - _UNIVERSAL_NAMES - {key}
+            if corrob:
+                return ({"ncbi_name": node["name"], "ncbi_rank": node["rank"],
+                         "via": "organism" if idx == 0 else "lineage-ancestor",
+                         "corroborated": True,
+                         "corroborated_by": sorted(corrob)[:5]}, cand)
+        # organism exact hit with no corroboration: accept (flagged) if unambiguous
+        if idx == 0 and len(candidates) == 1:
+            return ({"ncbi_name": node["name"], "ncbi_rank": node["rank"],
+                     "via": "organism", "corroborated": False}, candidates[0])
+    return None, None
+
+
+def resolve_ncbi(client: EukMap, taxids: list[str], from_domain: bool,
+                 email: str | None) -> dict:
+    """NCBI taxids -> EukMap lineages, bridging on scientific name.
+
+    For each taxid: resolve its NCBI name + lineage, then
+      1. match the organism's own name in EukMap; else
+      2. walk the NCBI lineage upward and take the nearest ancestor EukMap knows
+         (recording which NCBI rank/name the bridge happened at).
+    """
+    resolved = resolve_ncbi_taxids(taxids, email=email)
+    results, unmatched = [], []
+    for taxid in taxids:
+        rec = resolved.get(str(taxid))
+        if not rec or not rec.get("name"):
+            unmatched.append({"query": str(taxid), "reason": "unknown NCBI taxid"})
+            continue
+
+        bridge, eukmap_id = bridge_ncbi(client, rec)
+        if not eukmap_id:
+            unmatched.append({"query": str(taxid), "ncbi_name": rec["name"],
+                              "reason": "no corroborated EukMap match for organism "
+                                        "or any NCBI ancestor"})
+            continue
+
+        results.append({
+            "query": str(taxid),
+            "ncbi": {"taxid": str(taxid), "name": rec["name"], "rank": rec.get("rank")},
+            "bridge": bridge,
+            "matched": {"id": eukmap_id, "name": client.name_of.get(eukmap_id),
+                        "rank": client.rank_of(eukmap_id)},
+            "lineage": client.lineage(eukmap_id, from_domain=from_domain),
+        })
+    return {"results": results, "unmatched": unmatched,
+            "merged_tree": merged_tree(results)}
+
+
 def merged_tree(results: list[dict]) -> list[dict]:
     """Union all lineages into one nested tree (handy for a taxonomy viewer)."""
     roots: dict[str, dict] = {}
@@ -336,7 +480,7 @@ def merged_tree(results: list[dict]) -> list[dict]:
 def to_tsv(payload: dict) -> str:
     lines = ["query\tmatch_type\tdepth\trank\tname\ttaxon_id"]
     for e in payload["results"]:
-        mt = e["matched"]["matchType"]
+        mt = e["matched"].get("matchType") or (e.get("bridge") or {}).get("via", "")
         for depth, node in enumerate(e["lineage"]):
             lines.append("\t".join([
                 e["query"], mt, str(depth),
@@ -363,12 +507,32 @@ def collect_names(args: argparse.Namespace) -> list[str]:
     return uniq
 
 
+def collect_taxids(args: argparse.Namespace) -> list[str]:
+    raw: list[str] = []
+    if args.ncbi_ids:
+        raw += args.ncbi_ids.replace(",", " ").split()
+    if args.ncbi_ids_file:
+        with open(args.ncbi_ids_file, encoding="utf-8") as fh:
+            for ln in fh:
+                raw += ln.replace(",", " ").split()
+    seen, uniq = set(), []
+    for t in raw:
+        if t and t not in seen:
+            seen.add(t)
+            uniq.append(t)
+    return uniq
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(
         description="Resolve scientific names to full EukMap taxonomic lineages.")
     ap.add_argument("names", nargs="*", help="scientific names (quote multi-word)")
     ap.add_argument("--names-file", help="file with one scientific name per line")
     ap.add_argument("--stdin", action="store_true", help="also read names from stdin")
+    ap.add_argument("--ncbi-ids", help="comma/space separated NCBI taxids; resolves "
+                    "them to names via ncbi-taxonomist, then matches EukMap")
+    ap.add_argument("--ncbi-ids-file", help="file with one NCBI taxid per line")
+    ap.add_argument("--email", help="contact email for NCBI Entrez (recommended)")
     ap.add_argument("--format", choices=["json", "tsv"], default="json")
     ap.add_argument("-o", "--output", help="write to file instead of stdout")
     ap.add_argument("--from-domain", action="store_true",
@@ -378,13 +542,21 @@ def main() -> int:
     ap.add_argument("--taxonomy", default=DEFAULT_TAXONOMY, help="taxonomy id (default: unieuk)")
     args = ap.parse_args()
 
+    taxids = collect_taxids(args)
     names = collect_names(args)
-    if not names:
-        ap.error("no names given (pass names, --names-file, or --stdin)")
+    if not names and not taxids:
+        ap.error("no input (pass names, --names-file, --stdin, or --ncbi-ids)")
 
     client = EukMap(base=args.base, taxonomy=args.taxonomy)
     client.load_tree(refresh=args.refresh)
-    payload = resolve_names(client, names, from_domain=args.from_domain)
+
+    if taxids:
+        payload = resolve_ncbi(client, taxids, from_domain=args.from_domain,
+                               email=args.email)
+        n_in = len(taxids)
+    else:
+        payload = resolve_names(client, names, from_domain=args.from_domain)
+        n_in = len(names)
 
     text = (to_tsv(payload) if args.format == "tsv"
             else json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
@@ -396,7 +568,7 @@ def main() -> int:
         sys.stdout.write(text)
 
     matched = len(payload["results"])
-    print(f"[eukmap] matched {matched}/{len(names)}; "
+    print(f"[eukmap] matched {matched}/{n_in}; "
           f"unmatched {len(payload['unmatched'])}", file=sys.stderr)
     return 0
 

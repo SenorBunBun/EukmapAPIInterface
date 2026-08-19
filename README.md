@@ -7,7 +7,8 @@ a taxonomic-tree viewer.
 
 ## What it does
 
-Given a set of scientific names, `eukmap_lineage.py`:
+Input can be **scientific names** or **NCBI tax IDs** (resolved to names first —
+see below). Given them, `eukmap_lineage.py`:
 
 1. **Downloads the whole UniEuk tree once** and caches it (`~/.cache/eukmap`).
    This is the only public way to reconstruct ancestry — EukMap taxa carry no
@@ -33,7 +34,32 @@ python3 eukmap_lineage.py "Fungi" --from-domain   # start lineage at Eukaryota
 python3 eukmap_lineage.py "Fungi" --refresh       # force re-download of the tree
 ```
 
-Standard-library only — no dependencies. Python 3.9+.
+The name pipeline is standard-library only. **NCBI-taxid mode** additionally needs
+`ncbi-taxonomist` (`pip install -r requirements.txt`) and network access to NCBI.
+Python 3.9+.
+
+### Starting from NCBI tax IDs
+
+```bash
+python3 eukmap_lineage.py --ncbi-ids "5888 9606 2903" --email you@example.com
+python3 eukmap_lineage.py --ncbi-ids-file taxids.txt --format tsv
+```
+
+There is **no NCBI↔EukMap id crosswalk** — EukMap stores no NCBI taxid, so the
+only bridge between the two taxonomies is the scientific **name**. So this mode:
+
+1. runs `ncbi-taxonomist resolve` to turn each taxid into its authoritative NCBI
+   **name + full NCBI lineage**;
+2. tries to match the organism's name in EukMap; if EukMap doesn't have that exact
+   organism (common — it's protist-focused), it **walks up the NCBI lineage** and
+   takes the nearest ancestor EukMap does know;
+3. **corroborates** every match against the NCBI lineage — a candidate is accepted
+   only if its EukMap ancestry shares an informative (non-universal) name with the
+   NCBI lineage. This rejects wrong-kingdom **homonyms** (e.g. NCBI's animal
+   *Vertebrata* vs EukMap's red-algal genus *Vertebrata* — EukMap has both).
+
+Each NCBI result records a `bridge` block: which NCBI name/rank the match happened
+at, whether it was the organism itself or an ancestor, and what corroborated it.
 
 ### JSON shape
 
@@ -62,6 +88,14 @@ Standard-library only — no dependencies. Python 3.9+.
 ambiguous match the `matched` object also carries a `candidates`/`ambiguous` list
 so a caller can disambiguate.
 
+## Offline tree snapshot
+
+`data/unieuk_tree.json.gz` is a gzipped snapshot of the full UniEuk tree (~55k
+taxa, ~24 MB raw). The script loads it automatically when there's no fresh cache,
+so name-mode works **offline out of the box**. Source preference is:
+fresh on-disk cache (`~/.cache/eukmap`, 1-day TTL) → bundled snapshot → live API.
+Use `--refresh` to bypass both and pull a current tree from the API.
+
 ## The EukMap public API (reference)
 
 Base: `https://eukmap.unieuk.net/api` — no auth for reads.
@@ -85,6 +119,5 @@ Header gotchas (verified against the live API):
   clades legitimately have rank **`undefined`** — they are clades, not Linnaean
   ranks. That `undefined` is EukMap's honest "evaluated" ranking, not an error.
 - **NCBI tax IDs:** EukMap does not index its tree by NCBI taxid — mapping is
-  name-based. If you start from NCBI tax IDs, resolve each to a scientific name
-  first (e.g. `https://www.ebi.ac.uk/ena/taxonomy/rest/tax-id/{taxid}`), then feed
-  the names to this script.
+  name-based. The built-in `--ncbi-ids` mode handles this via `ncbi-taxonomist`
+  (resolve → name/lineage → corroborated EukMap match); see above.
